@@ -13,5 +13,15 @@ namespace WebApplication1
         {
 
         }
+
+        protected void ButtonMelody_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Melody.aspx");
+        }
+
+        protected void ButtonPhotos_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Photos.aspx");
+        }
     }
 }
