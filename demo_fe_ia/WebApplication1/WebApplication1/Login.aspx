@@ -60,7 +60,7 @@
             <!-- Welcome back message for login -->
             <div class="info-text login">
                 <h1 class="animation" style="--data:1;">Welcome To IA</h1>
-                <p class="animation" style="--data:2">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p class="animation" style="--data:2">Igniting creativity is the first step to unlocking the world of art – where each piece tells its own story.</p>
             </div>
 
             <!-- Sign-Up form container -->
@@ -87,10 +87,10 @@
                         <label>Password</label>
                         <i class="fa-solid fa-lock"></i> <!-- Lock icon -->
                     </div>
-                    <!-- Password input again-->
+                    <!-- confirm Password -->
                     <div class="input-box animation" style="--data:20">
                         <asp:TextBox ID="txtSignupPasswordAgain" runat="server" TextMode="Password" CssClass="form-control" placeholder="" required></asp:TextBox>
-                        <label>Re-enter password</label>
+                        <label>Confirm password</label>
                         <i class="fa-solid fa-lock"></i> <!-- Lock icon -->
                     </div>
 
@@ -114,77 +114,7 @@
 
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
+    <script src="js/js_login.js"></script>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var wrapper = document.querySelector('.wrapper');
-            var signuplink = document.querySelector('.signup-link');
-            var loginlink = document.querySelector('.login-link');
-
-            signuplink.onclick = () => {
-                wrapper.classList.add("active");
-                animateContainer();
-            };
-
-            loginlink.onclick = () => {
-                wrapper.classList.remove("active");
-                animateContainer();
-            };
-
-            var container = document.getElementById('container');
-            var borderArray = ['50%', '0'];
-            var blurArray = ['0', '5px'];
-            var colorArray = ['#25252b', '#6305D3', '#E3D2F7'];
-            var width = window.innerWidth;
-            var height = window.innerHeight;
-            var count = 8;
-
-            function createElementRandom() {
-                for (var i = 0; i < count; i++) {
-                    var randomLeft = Math.floor(Math.random() * width);
-                    var randomTop = Math.floor(Math.random() * height);
-                    var color = Math.floor(Math.random() * 3);
-                    var border = Math.floor(Math.random() * 2);
-                    var blur = Math.floor(Math.random() * 2);
-                    var widthElement = Math.floor(Math.random() * 5) + 7;
-
-
-                    var div = document.createElement("div");
-                    div.classList.add("moving-div");
-                    div.style.backgroundColor = colorArray[color];
-                    div.style.position = 'absolute';
-                    div.style.width = widthElement + 'px';
-                    div.style.height = widthElement + 'px';
-                    div.style.left = randomLeft + 'px';
-                    div.style.top = randomTop + 'px';
-                    div.style.borderRadius = borderArray[0];
-                    //div.style.marginLeft = randomLeft + 'px';
-                    //div.style.marginTop = randomTop + 'px';
-                    //div.style.borderRadius = borderArray[border];
-                    div.style.filter = 'blur(' + blurArray[blur] + ')';
-                    div.style.animation = 'move 5s ease-in infinite';
-                    container.appendChild(div);
-                }
-            }
-
-            function animateContainer() {
-                container.innerHTML = '';
-                createElementRandom();
-                setTimeout(() => {
-                    var movingDivs = document.querySelectorAll('.moving-div');
-                    movingDivs.forEach(div => {
-                        div.style.animation = 'move 5s ease-in infinite';
-                    });
-                }, 50);
-            }
-            function animateContainer() {
-                createElementRandom();
-            }
-            setInterval(animateContainer, 4500);
-
-            createElementRandom();
-        });
-    </script>
 </body>
 </html>

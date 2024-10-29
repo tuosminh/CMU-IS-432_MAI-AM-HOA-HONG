@@ -7,12 +7,14 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using WebApplication1.Models;
 
 namespace WebApplication1
 {
     public partial class Login : System.Web.UI.Page
     {
         LopKetNoi kn = new LopKetNoi();
+        //KHACHHANGDBCONTEXT db = new KHACHHANGDBCONTEXT();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (IsPostBack)
@@ -64,7 +66,8 @@ namespace WebApplication1
             }
             catch (Exception ex)
             {
-                lblError.Text = "Có lỗi xảy ra: " + ex.Message;
+                //lblError.Text = "Có lỗi xảy ra: " + ex.Message;
+                lblError.Text = "Có lỗi xảy ra: Vui lòng nhập lại";
                 lblError.Visible = true;
             }
 
@@ -84,6 +87,34 @@ namespace WebApplication1
             //}
         }
 
+        //protected void btnSignUp_Click(object sender, EventArgs e)
+        //    {
+        //        string tendangnhap = usSignup.Text;
+        //        //string tendangnhap = usSignup.Text;
+        //        string matkhau = TextBox2.Text;
+        //        string email = txtEmail.Text;
+
+        //        if (string.IsNullOrEmpty(tendangnhap) || string.IsNullOrEmpty(matkhau) || string.IsNullOrEmpty(email))
+        //            {
+        //                lblMessage.Text = "Tất cả các trường đều bắt buộc.";
+        //                return;
+        //            }
+
+        //            KHACHHANG newKhachHang = new KHACHHANG
+        //            {
+        //                TENDANGNHAP = tendangnhap,
+        //                MATKHAU = matkhau,
+        //                EMAIL = email
+        //            };
+
+        //            db.KHACHHANGs.Add(newKhachHang);
+        //            db.SaveChanges();
+
+        //            lblMessage.Text = "Đăng ký thành công!";
+
+
+
+        //    }
         protected void btnSignup_Click(object sender, EventArgs e)
         {
             string username = txtSignupUsername.Text;
@@ -131,10 +162,10 @@ namespace WebApplication1
             // Nếu tên người dùng chưa tồn tại, thực hiện đăng ký
             string insertUserSql = "INSERT INTO KhachHang (Tendangnhap, Matkhau, Email) VALUES (@username, @password, @Email)";
             SqlParameter[] parameters = {
-        new SqlParameter("@username", username),
-        new SqlParameter("@password", password),
-        new SqlParameter("@Email", email)
-    };
+                new SqlParameter("@username", username),
+                new SqlParameter("@password", password),
+                new SqlParameter("@Email", email)
+            };
 
             int rowsAffected = kn.CapNhatDuLieu(insertUserSql);
 
@@ -151,19 +182,21 @@ namespace WebApplication1
                 lblError.Visible = true;
             }
 
-            //private bool ValidateUser(string username, string password)
-            //{
-            //    // Thay thế bằng mã kiểm tra người dùng thực tế trong cơ sở dữ liệu
-            //    // Ví dụ: kiểm tra tên người dùng và mật khẩu trong cơ sở dữ liệu
-            //    return username == "admin" && password == "password"; // Ví dụ đơn giản
-            //}
 
-            //private bool RegisterUser(string username, string email, string password)
-            //{
-            //    // Thay thế bằng mã lưu người dùng vào cơ sở dữ liệu
-            //    // Bạn cần kiểm tra xem tên người dùng đã tồn tại chưa
-            //    return true; // Giả lập rằng đăng ký thành công
-            //}
+        }
+
+        private bool ValidateUser(string username, string password)
+        {
+            // Thay thế bằng mã kiểm tra người dùng thực tế trong cơ sở dữ liệu
+            // Ví dụ: kiểm tra tên người dùng và mật khẩu trong cơ sở dữ liệu
+            return username == "admin" && password == "password"; // Ví dụ đơn giản
+        }
+
+        private bool RegisterUser(string username, string email, string password)
+        {
+            // Thay thế bằng mã lưu người dùng vào cơ sở dữ liệu
+            // Bạn cần kiểm tra xem tên người dùng đã tồn tại chưa
+            return true; // Giả lập rằng đăng ký thành công
         }
     }
 }
