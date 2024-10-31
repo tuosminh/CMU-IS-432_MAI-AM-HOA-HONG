@@ -13,7 +13,7 @@ namespace WebApplication1
 
         private void MoKetNoi()
         {
-            string SqlCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\nam3\software_project_management\demo_fe_ia\WebApplication1\WebApplication1\App_Data\Database1.mdf;Integrated Security=True";
+            string SqlCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ACER\OneDrive\Documents\GitHub\CMU-IS-432_MAI-AM-HOA-HONG\demo_fe_ia\WebApplication1\WebApplication1\App_Data\Database1.mdf;Integrated Security=True";
             cn = new SqlConnection(SqlCon);
 
             cn.Open();

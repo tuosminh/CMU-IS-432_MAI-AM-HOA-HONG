@@ -13,13 +13,7 @@ namespace WebApplication1
         LopKetNoi kn = new LopKetNoi();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (IsPostBack) return;
-
-            string sql = "SELECT * FROM POST ";
-            ds_baidang.DataSource = kn.LayDuLieu(sql);
-            ds_baidang.DataBind();
-            DataList1.DataSource=kn.LayDuLieu(sql);
-            DataList1.DataBind();
+            
 
         }
 

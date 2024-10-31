@@ -125,6 +125,8 @@
     <Content Include="OrderDetails.aspx" />
     <Content Include="PhotoDetails.aspx" />
     <Content Include="Photos.aspx" />
+    <Content Include="post_image\1.png" />
+    <Content Include="post_image\avt.jpg" />
     <Content Include="Profile.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -137,6 +139,7 @@
     <Content Include="ShoppingCart.aspx" />
     <Content Include="Upload.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Post.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Chatting.aspx.cs">
@@ -271,6 +274,13 @@
     </Compile>
     <Compile Include="Upload.aspx.designer.cs">
       <DependentUpon>Upload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Post.aspx.cs">
+      <DependentUpon>Post.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Post.aspx.designer.cs">
+      <DependentUpon>Post.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

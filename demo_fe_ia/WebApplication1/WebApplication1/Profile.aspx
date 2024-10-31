@@ -182,7 +182,7 @@
                                             </div>
                                         </div>--%>
                                
-<!-- <div class="pt card p-3">
+<%-- <div class="pt card p-3">
                                     <div class="card-body p-0">
                                         <div class="row m-0">
                                             <div class="col-lg-12">
@@ -242,4 +242,4 @@
                                             <asp:TextBox ID="TextBox1" runat="server" CssClass="Comment"></asp:TextBox>
                                         </div>
                                     </div>
-                                </div> -->
+                                </div> --%>
