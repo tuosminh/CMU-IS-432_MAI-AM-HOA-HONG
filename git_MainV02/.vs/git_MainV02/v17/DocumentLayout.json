@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\",
+  "WorkspaceRootPath": "F:\\git_MainV02\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
@@ -14,6 +14,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
             }
           ]
         },
