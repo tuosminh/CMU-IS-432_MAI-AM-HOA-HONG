@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\admin\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cmu-is-432_mai-am-hoa-hong\\demo_fe_ia\\webapplication1\\webapplication1\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\admin\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cmu-is-432_mai-am-hoa-hong\\demo_fe_ia\\webapplication1\\webapplication1\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\admin\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cmu-is-432_mai-am-hoa-hong\\demo_fe_ia\\webapplication1\\webapplication1\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 34,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Login.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Login.aspx",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Login.aspx",
+              "RelativeToolTip": "WebApplication1\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-31T09:08:38.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.aspx",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Profile.aspx",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx",
+              "RelativeToolTip": "WebApplication1\\Profile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-31T09:06:43.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Home.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Home.aspx",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Home.aspx",
+              "RelativeToolTip": "WebApplication1\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-31T09:06:32.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "css_profile.css",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_profile.css",
+              "RelativeDocumentMoniker": "WebApplication1\\css\\css_profile.css",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_profile.css",
+              "RelativeToolTip": "WebApplication1\\css\\css_profile.css",
+              "ViewState": "AQIAALQAAAAAAAAAAAAAAMMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-31T09:06:32.793Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
