@@ -78,6 +78,7 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="css\css_menuLogin.css" />
     <Content Include="css\css_notification.css" />
     <Content Include="css\css_search.css" />
     <Content Include="css\css_signupbsn.css" />
@@ -112,7 +113,6 @@
     <Content Include="css\css_menu.css" />
     <Content Include="css\css_photos.css" />
     <Content Include="css\css_profile.css" />
-    <Content Include="css\css_signUp.css" />
     <Content Include="ExhibitionCorner.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Help.aspx" />
@@ -120,6 +120,7 @@
     <Content Include="images\avatar.jpg" />
     <Content Include="images\AVT_DAIDIEN\hinhavt9.jpg" />
     <Content Include="images\GoogleLogo.png" />
+    <Content Include="images\imgSignUpPage.png" />
     <Content Include="images\imgLoginPage.png" />
     <Content Include="images\img_home\1.jpg" />
     <Content Include="images\img_home\2.jpg" />
@@ -153,9 +154,11 @@
     <Content Include="img_sanpham\17.jpg" />
     <Content Include="js\js_login.js" />
     <Content Include="js\js_profile.js" />
+    <Content Include="js\js_userControlLogin.js" />
     <Content Include="Login.aspx" />
     <Content Include="Melody.aspx" />
     <Content Include="MelodyDetails.aspx" />
+    <Content Include="MenuLogin.ascx" />
     <Content Include="Notification.aspx" />
     <Content Include="OrderDetails.aspx" />
     <Content Include="PhotoDetails.aspx" />
@@ -235,6 +238,13 @@
     </Compile>
     <Compile Include="MelodyDetails.aspx.designer.cs">
       <DependentUpon>MelodyDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuLogin.ascx.cs">
+      <DependentUpon>MenuLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuLogin.ascx.designer.cs">
+      <DependentUpon>MenuLogin.ascx</DependentUpon>
     </Compile>
     <Compile Include="Models\KhachHang.cs" />
     <Compile Include="Models\KhachHangDbContext.cs" />

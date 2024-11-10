@@ -48,12 +48,12 @@ namespace WebApplication1
 
             if (result > 0)
             {
-                lblMessage.Text = "Đăng ký thành công!";
+                lblMessage.Text = "Registration successful!";
                 lblMessage.ForeColor = System.Drawing.Color.Green;
             }
             else
             {
-                lblMessage.Text = "Đăng ký thất bại!";
+                lblMessage.Text = "Registration failed!";
                 lblMessage.ForeColor = System.Drawing.Color.Red;
             }
         }

@@ -63,7 +63,7 @@
             </div>
             <!-- Nội dung của từng menu phụ -->
             <!-- post -->
-           <div id="content1" class="menu-content" style="display:block;">
+            <div id="content1" class="menu-content" style="display:block;">
                 <div class="row d-flex justify-content-between">
                     <!--col introduce -->
                     <div class="intro col-lg-3">
@@ -86,8 +86,8 @@
                     <div class="post col-lg-8">
                         <div class="row">
                             <div class="col-lg-12">
-
-                           <asp:DataList ID="DS_BAIDANGUP" runat="server" ClientIDMode="AutoID">
+                                <!-- datalist -->
+                                <asp:DataList ID="DS_BAIDANGUP" runat="server" ClientIDMode="AutoID" CssClass="w-100">
                                     <ItemTemplate>
                                         <!-- row tổng -->
                                         <div class="row mb-5">
@@ -101,15 +101,12 @@
                                                                     <!-- row của nội dung card trong -->
                                                                     <div class="row m-0">
                                                                         <div class="colImgPost col-lg-5">
-                                                                            <asp:ImageButton ID="ImageButton2" 
-    runat="server" 
-    ImageUrl='<%# "data:image/jpeg;base64," + Convert.ToBase64String((byte[])Eval("ANHBAIDANG")) %>'
-    CommandArgument='<%# Eval("IDBAIDANG") %>' />
-
-
-​
-
-<!-- width="400px" Height="300px" -->
+                                                                            <asp:ImageButton ID="ImageButton2"
+                                                                                runat="server"
+                                                                                ImageUrl='<%# "data:image/jpeg;base64," + Convert.ToBase64String((byte[])Eval("ANHBAIDANG")) %>'
+                                                                                CommandArgument='<%# Eval("IDBAIDANG") %>'
+                                                                                CssClass="anhBaiDang" />
+                                                                            <!-- width="400px" Height="300px" -->
                                                                         </div>
                                                                         <div class="col-lg-7">
                                                                             <div class="contentCard card p-2">
@@ -131,16 +128,17 @@
                                                                                             </asp:Label>
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="row m-0">
+                                                                                    <div class="row mb-3">
                                                                                         <div class="col-lg-12">
                                                                                             <asp:Label ID="Label4"
                                                                                                 runat="server"
                                                                                                 Text='<%# Eval("MOTA") %>'>
                                                                                             </asp:Label>
                                                                                         </div>
-</div>
+                                                                                    </div>
 
-                                                                                    <div class="row m-0 mt-auto">
+                                                                                    <div
+                                                                                        class="row boxTacGia mt-auto mb-2">
                                                                                         <div
                                                                                             class="col-lg-12 d-flex align-items-center justify-content-between">
                                                                                             <div
@@ -166,7 +164,7 @@
                                                                                             <div class="">
                                                                                                 <asp:Button ID="Button5"
                                                                                                     runat="server"
-Text="Button"
+                                                                                                    Text="Button"
                                                                                                     CssClass="followButton" />
                                                                                             </div>
                                                                                         </div>
@@ -177,7 +175,7 @@ Text="Button"
                                                                                     <!-- button heart -->
                                                                                     <button id="likeButton"
                                                                                         type="button"
-                                                                                        onclick="toggleColor()">
+                                                                                        onclick="toggleColor(this)">
                                                                                         <i
                                                                                             class="fa-solid fa-heart"></i>
                                                                                     </button>
@@ -196,7 +194,7 @@ Text="Button"
                                                                                         <i
                                                                                             class="fa-solid fa-ellipsis"></i>
                                                                                     </button>
-<ul class="dropdown-menu p-0">
+                                                                                    <ul class="dropdown-menu p-0">
                                                                                         <li>
                                                                                             <asp:Button ID="Button3"
                                                                                                 runat="server"
@@ -228,7 +226,7 @@ Text="Button"
                                                                             runat="server" ImageUrl="images/avatar.jpg"
                                                                             CssClass="ava" />
                                                                     </div>
-</div>
+                                                                </div>
 
                                                                 <div class="boxComment input-group">
                                                                     <asp:TextBox ID="TextBox1" runat="server"
@@ -261,7 +259,7 @@ Text="Button"
                                                         <!-- row của card trong -->
                                                         <div class="row m-0">
                                                             <div class="col-lg-12">
-                                                                <div class="subCard card">
+                                                                <div class="subCard card d-flex">
                                                                     <!-- row của nội dung card trong -->
                                                                     <div class="row m-0">
                                                                         <div class="colImgPost col-lg-5">
@@ -270,12 +268,12 @@ Text="Button"
                                                                                 CommandArgument='<%# Eval("IDBAIDANG") %>'
                                                                                 ImageUrl='<%# "images/post_image/"+Eval("ANHBAIDANG") %>'
                                                                                 CssClass="anhBaiDang" />
-​
+                                                                            ​
 
-<!-- width="400px" Height="300px" -->
+                                                                            <!-- width="400px" Height="300px" -->
                                                                         </div>
                                                                         <div class="col-lg-7">
-                                                                            <div class="contentCard card p-2">
+                                                                            <div class="contentCard card p-3 pb-0">
                                                                                 <div
                                                                                     class="card-header d-flex align-items-center">
                                                                                     <asp:Label ID="Label3"
@@ -294,16 +292,25 @@ Text="Button"
                                                                                             </asp:Label>
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="row m-0">
+                                                                                    <div class="row mb-3">
                                                                                         <div class="col-lg-12">
                                                                                             <asp:Label ID="Label4"
                                                                                                 runat="server"
-                                                                                                Text='<%# Eval("MOTA") %>'>
+                                                                                                Text='<%# Eval("MOTA") %>'
+                                                                                                CssClass="short-text">
                                                                                             </asp:Label>
+                                                                                            <button type="button"
+                                                                                                class="btn-more">Xem
+                                                                                                thêm</button>
+                                                                                            <!-- <button type="button"
+                                                                                                class="btn-more"
+                                                                                                onclick="toggleText()">Xem
+                                                                                                thêm</button> -->
                                                                                         </div>
-</div>
+                                                                                    </div>
 
-                                                                                    <div class="row m-0 mt-auto">
+                                                                                    <div
+                                                                                        class="row boxTacGia mt-auto mb-2">
                                                                                         <div
                                                                                             class="col-lg-12 d-flex align-items-center justify-content-between">
                                                                                             <div
@@ -329,7 +336,7 @@ Text="Button"
                                                                                             <div class="">
                                                                                                 <asp:Button ID="Button5"
                                                                                                     runat="server"
-Text="Button"
+                                                                                                    Text="Button"
                                                                                                     CssClass="followButton" />
                                                                                             </div>
                                                                                         </div>
@@ -340,7 +347,7 @@ Text="Button"
                                                                                     <!-- button heart -->
                                                                                     <button id="likeButton"
                                                                                         type="button"
-                                                                                        onclick="toggleColor()">
+                                                                                        onclick="toggleColor(this)">
                                                                                         <i
                                                                                             class="fa-solid fa-heart"></i>
                                                                                     </button>
@@ -359,7 +366,7 @@ Text="Button"
                                                                                         <i
                                                                                             class="fa-solid fa-ellipsis"></i>
                                                                                     </button>
-<ul class="dropdown-menu p-0">
+                                                                                    <ul class="dropdown-menu p-0">
                                                                                         <li>
                                                                                             <asp:Button ID="Button3"
                                                                                                 runat="server"
@@ -391,7 +398,7 @@ Text="Button"
                                                                             runat="server" ImageUrl="images/avatar.jpg"
                                                                             CssClass="ava" />
                                                                     </div>
-</div>
+                                                                </div>
 
                                                                 <div class="boxComment input-group">
                                                                     <asp:TextBox ID="TextBox1" runat="server"
@@ -471,8 +478,6 @@ Text="Button"
 
                 </div>
 
-                DS_FOLLOWER
-
 
 
 
@@ -534,25 +539,46 @@ Text="Button"
 
                 </div>
             </div>
+
             <!-- edit profile -->
             <div id="content4" class="menu-content" style="display:none;">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="card p-3">
-                            <button class="text-start p-2">
+                            <div class="content-edit-profile text-start" data-bs-toggle="modal"
+                                data-bs-target="#updataModal">
                                 <span class="">Update Personal Information</span>
-                            </button>
+                            </div>
+                            <hr class="line">
 
+                            <div
+                                class="content-edit-profile text-start d-flex justify-content-between align-items-center">
+                                <span class="">Change Profile Picture</span>
+                                <div class="">
+                                    <label for="fileUploadAvata" class="custom-upload-button">Choose File</label>
+                                    <input id="fileUploadAvata" type="file" style="display: none;">
+                                </div>
+                            </div>
+                            <hr class="line">
 
+                            <div
+                                class="content-edit-profile text-start d-flex justify-content-between align-items-center">
+                                <span class="">Change Cover Photo</span>
+                                <div class="">
+                                    <label for="fileUploadCover" class="custom-upload-button">Choose File</label>
+                                    <input id="fileUploadCover" type="file" style="display: none;">
+                                </div>
+                            </div>
+                            <hr class="line">
 
-                            <button class="text-start p-2">
+                            <div class="content-edit-profile text-start">
                                 <span class="">Security and Privacy Settings</span>
-                            </button>
-                            <button class="text-start p-2">
+                            </div>
+                            <hr class="line ">
+
+                            <div class="content-edit-profile text-start">
                                 <span class="">Edit Contact Information</span>
-                            </button>
-                            <!-- <div class="other-section">Security and Privacy Settings</div>
-                            <div class="other-section">Edit Contact Information</div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -560,7 +586,45 @@ Text="Button"
             </div>
 
 
+            <!-- Post - Comment Modal -->
+            <div class="modal fade" id="commentModal" tabindex="-1" aria-labelledby="commentModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="commentModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Edit profile - Update Personal Information Modal -->
+            <div class="modal fade" id="updataModal" tabindex="-1" aria-labelledby="updataModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="updataModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
 

@@ -179,19 +179,23 @@
     border-radius: 15px;
     box-shadow: 0 5px 10px #6305D3;
     overflow: hidden;
-
+    /* max-height: 500px; */
+    /* min-height: 300px; */
     /*overflow: hidden; => Để phần tử con tuân theo hình dạng của phần tử cha */
 }
 
 #content1 .post .subCard .colImgPost {
-    max-height: 400px;
+    max-height: 450px;
+    /* max-height: 500px; */
     min-height: 300px;
+    overflow: hidden;
 }
 
 #content1 .post .subCard .colImgPost .anhBaiDang {
     width: 100%;
     height: 100%;
-
+    /* min-height: 500px; */
+    /* max-height: 470px; */
     /* object-fit: cover; => xử lý tràn viền */
 }
 
@@ -199,8 +203,10 @@
     border: none;
     width: 100%;
     height: 100%;
-    min-height: 300px;
+    /* min-height: 300px; */
     overflow: hidden;
+    position: relative;
+
 }
 
 #content1 .post .subCard .contentCard .card-header {
@@ -219,12 +225,46 @@
     border: none;
     background-color: #fff;
     height: 70%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+#content1 .post .subCard .contentCard .card-body .short-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* max-height: 6em; */
+}
+
+#content1 .post .subCard .contentCard .card-body .btn-more {
+    background: none;
+    border: none;
+    color: #25252ba5;
+    cursor: pointer;
+    /* text-decoration: underline; */
+    padding: 0;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#content1 .post .subCard .contentCard .card-body .boxTacGia {
+    /* position: absolute; */
+
+}
+
+#content1 .post .subCard .contentCard .card-body .btn-more:hover {
+    color: #25252b;
+    text-decoration: underline;
 }
 
 #content1 .post .subCard .contentCard .card-footer {
     border-top: 2px solid #2B005F;
     background-color: #fff;
     height: 50px;
+    padding: 5px 10px;
 }
 
 #content1 .post .subCard .contentCard .card-footer button {
@@ -237,11 +277,11 @@
     font-size: 28px;
 }
 
-#likeButton i {
+#likeButton {
     color: #cea3fe;
 }
 
-#likeButton.active i {
+#likeButton.clicked i {
     color: rgb(210, 23, 23);
 }
 
@@ -408,4 +448,40 @@
     box-shadow: 0 5px 10px #6305D3;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+/* edit profile */
+#content4 .content-edit-profile {
+    padding: 20px;
+    background-color: transparent;
+    margin: 10px 0;
+}
+
+#content4 .content-edit-profile:hover {
+    /* padding: 5px 20px; */
+    background-color: #f2e8ff;
+}
+
+#content4 .line {
+    border: none;
+    background-color: #6305D3;
+    /* font-weight: 700; */
+    height: 2px;
+    margin: 0;
+}
+
+.custom-upload-button {
+    padding: 3px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: inherit;
+    color: #6305D3;
+    background-color: #fff;
+    border: 2px solid #6305D3;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.custom-upload-button:hover {
+    background-color: #f2e8ff;
 }

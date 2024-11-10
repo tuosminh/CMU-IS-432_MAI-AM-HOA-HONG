@@ -1,8 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Menu.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs"
     Inherits="WebApplication1.Home" %>
 
+<%@ Register Src="~/MenuLogin.ascx" TagPrefix="uc1" TagName="MenuLogin" %>
 
-    <asp:Content ID="Home" ContentPlaceHolderID="content" runat="server">
+
+
+<asp:Content ID="Home" ContentPlaceHolderID="content" runat="server">
         <link href="css/css_home.css" rel="stylesheet" />
         <div class="container">
             <div class="row mb-3">

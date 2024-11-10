@@ -13,16 +13,13 @@
 
 .container {
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .fixed-top {
     position: fixed;
     /* Menu cố định */
     top: 0;
-    /* Đặt ở đầu trang */
-    !important width: 100%;
-    /* Chiều rộng toàn trang */
     z-index: 1000;
     /* Đảm bảo menu nổi trên các phần tử khác */
     background-color: #ffffff;

@@ -20,20 +20,52 @@ function showContent(contentId, button) {
 }
 
 //đổi màu icon heart sau khi bấm
-function toggleColor() {
-    const button = document.getElementById("likeButton");
-    button.classList.toggle("active");
+// function toggleColor() {
+//     const button = document.getElementById("likeButton");
+//     button.classList.toggle("clicked");
+// }
+// function toggleColor() {
+//     const button = document.getElementById('likeButton');
+//     button.classList.toggle('clicked');
+// }
+
+function toggleColor(button) {
+    button.classList.toggle('clicked');
 }
 
-// dropdown của edit profile
-// function toggleDropdown() {
-//     var content = document.getElementById("dropdown-header");
-//     if (content.style.display === "block") {
-//         content.style.display = "none";
+// Đảm bảo tất cả các nút được kích hoạt khi trang tải
+window.onload = function () {
+    var buttons = document.querySelectorAll('.likeButton');
+    buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+            toggleColor(button);
+        });
+    });
+};
+
+
+
+
+// document.querySelector('.btn-more').addEventListener('click', function () {
+//     document.querySelector('.short-text').style.whiteSpace = 'normal';
+//     this.style.display = 'none';  // Ẩn nút "Xem thêm"
+// });
+
+// function toggleText() {
+//     var label = document.querySelector('.short-text');
+//     var button = document.querySelector('.btn-more');
+
+//     if (label.style.display === '-webkit-box') {
+//         label.style.display = 'block';
+//         button.textContent = 'Thu gọn';
 //     } else {
-//         content.style.display = "block";
+//         label.style.display = '-webkit-box';
+//         button.textContent = 'Xem thêm';
 //     }
 // }
+
+
+
 
 
 
