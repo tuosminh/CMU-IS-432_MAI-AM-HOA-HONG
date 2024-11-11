@@ -1,4 +1,138 @@
-﻿.container .box .card {
+﻿.container {
+    /* width: 100%; */
+    max-width: 100vw;
+}
+
+.firstRow {
+    display: flex;
+    justify-content: center;
+    /*  align-items: center; */
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    max-width: 100vw;
+}
+
+.firstRow::before {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/img_home/9.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -2;
+    animation: Inout 5s infinite;
+}
+
+@keyframes Inout {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.firstRow::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.65;
+    z-index: -1;
+}
+
+.firstRow-content {
+    width: 80%;
+    position: absolute;
+    z-index: 0;
+    top: 60px;
+
+}
+
+.firstRow-content .text-firstRow {
+    width: 60%;
+}
+
+.firstRow-content h2 {
+    font-size: 64px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.firstRow-content p {
+    font-size: 21px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.firstRow-content {
+    font-size: 18px;
+    color: #fff;
+}
+
+.firstRow-content .img-firstRow {
+    width: 400px;
+    height: 450px;
+}
+
+.firstRow-content .img-firstRow .background {
+    position: absolute;
+    background-color: #2B005F;
+    opacity: 0.7;
+    width: 400px;
+    height: 450px;
+    z-index: 1;
+    border-radius: 20px;
+
+}
+
+.firstRow-content .img-firstRow .img-background {
+    width: 100%;
+    height: 100%;
+    border: 5px solid #6305D3;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.firstRow-content .img-firstRow .img-background img {
+    /* position: absolute; */
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    /* object-fit: cover */
+}
+
+
+.secondRow {
+    background-color: #fff;
+}
+
+.contentRow {
+    width: 90%;
+    z-index: 1;
+    background-color: #fff;
+    position: relative;
+}
+
+.carousel-inner {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container .box .card {
     border: none;
     box-shadow: 0 10px 15px #6305D3;
 
