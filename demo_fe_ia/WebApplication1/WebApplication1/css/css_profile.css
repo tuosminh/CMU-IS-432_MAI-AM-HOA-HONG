@@ -1,0 +1,487 @@
+﻿body {
+    background-color: #F7F5FD;
+}
+
+.row {
+    --bs-gutter-x: 1;
+}
+
+.container .ava_header .ava {
+    border: none;
+    height: auto;
+    box-shadow: 0 5px 10px #6305D3;
+    border-radius: 10px;
+}
+
+.ava_header .avatar {
+    width: 100%;
+    display: flex;
+    height: auto;
+    position: relative;
+}
+
+.ava_header .coverPhoto {
+    width: 100%;
+    height: 350px;
+    /*border-radius: 10px;*/
+    object-fit: cover;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+
+    padding-left: 230px;
+    position: relative;
+}
+
+.user .profile-img {
+    position: absolute;
+    top: -70px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #6305D3;
+    overflow: hidden;
+}
+
+.user .profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.profile-detail h3 {
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0;
+    color: #2B005F;
+}
+
+.profile-detail p {
+    font-size: 18px;
+    margin: 0;
+
+}
+
+.btn_upload {
+    width: 50%;
+    height: 50px;
+    color: #6305D3;
+    border: 4px solid #6305D3;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: bold;
+    background: #fff;
+}
+
+.btn_upload:hover {
+    background: linear-gradient(#6305D3, #25252b);
+    color: #fff;
+    border: none;
+}
+
+/* submenu */
+.submenu .card {
+    border: none;
+    height: auto;
+    box-shadow: 0 5px 10px #6305D3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-item button {
+    padding: 5px 20px;
+    border: 3px solid #fff;
+    background-color: #fff;
+    color: #2B005F;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav-item button:hover {
+    color: #6305D3;
+}
+
+.active-btn {
+    border-bottom: 3px solid #6305D3 !important;
+    /* Màu khi nút được nhấn */
+    color: #6305D3 !important;
+}
+
+.menu-content .row {
+    margin-bottom: 40px;
+}
+
+/* content1 - post */
+/* introduce */
+#content1 .intro .card {
+    border: none;
+    height: auto;
+    box-shadow: 0 5px 10px #6305D3;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+
+#content1 .intro .card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #2B005F;
+}
+
+#content1 .intro h5 {
+    font-weight: 700;
+    color: #2B005F;
+}
+
+#content1 .intro .card-footer {
+    background-color: #fff;
+    border: none;
+}
+
+#content1 .intro .btn_intro {
+    background-color: #fff;
+    color: #6305D3;
+    border-radius: 7px;
+    border: 3px solid #6305D3;
+    padding: 3px 15px;
+    font-weight: 700;
+    width: 100%;
+    height: 35px;
+}
+
+#content1 .intro .btn_intro:hover {
+    background: linear-gradient(#6305D3, #25252b);
+    color: #fff;
+    border: none;
+}
+
+/* post - content 1*/
+#content1 .post .cardTong {
+    background-color: #E3D2F7;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#content1 .post .subCard {
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px #6305D3;
+    overflow: hidden;
+    /* max-height: 500px; */
+    /* min-height: 300px; */
+    /*overflow: hidden; => Để phần tử con tuân theo hình dạng của phần tử cha */
+}
+
+#content1 .post .subCard .colImgPost {
+    max-height: 450px;
+    /* max-height: 500px; */
+    min-height: 300px;
+    overflow: hidden;
+}
+
+#content1 .post .subCard .colImgPost .anhBaiDang {
+    width: 100%;
+    height: 100%;
+    /* min-height: 500px; */
+    /* max-height: 470px; */
+    /* object-fit: cover; => xử lý tràn viền */
+}
+
+#content1 .post .subCard .contentCard {
+    border: none;
+    width: 100%;
+    height: 100%;
+    /* min-height: 300px; */
+    overflow: hidden;
+    position: relative;
+
+}
+
+#content1 .post .subCard .contentCard .card-header {
+    border: none;
+    background-color: #fff;
+    height: 15%;
+}
+
+#content1 .post .subCard .contentCard .card-header .tieuDe {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2B005F;
+}
+
+#content1 .post .subCard .contentCard .card-body {
+    border: none;
+    background-color: #fff;
+    height: 70%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+#content1 .post .subCard .contentCard .card-body .short-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* max-height: 6em; */
+}
+
+#content1 .post .subCard .contentCard .card-body .btn-more {
+    background: none;
+    border: none;
+    color: #25252ba5;
+    cursor: pointer;
+    /* text-decoration: underline; */
+    padding: 0;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#content1 .post .subCard .contentCard .card-body .boxTacGia {
+    /* position: absolute; */
+
+}
+
+#content1 .post .subCard .contentCard .card-body .btn-more:hover {
+    color: #25252b;
+    text-decoration: underline;
+}
+
+#content1 .post .subCard .contentCard .card-footer {
+    border-top: 2px solid #2B005F;
+    background-color: #fff;
+    height: 50px;
+    padding: 5px 10px;
+}
+
+#content1 .post .subCard .contentCard .card-footer button {
+    width: 30%;
+    background-color: #fff;
+    border: none;
+}
+
+#content1 .post .subCard .contentCard .card-footer button i {
+    font-size: 28px;
+}
+
+#likeButton {
+    color: #cea3fe;
+}
+
+#likeButton.clicked i {
+    color: rgb(210, 23, 23);
+}
+
+#content1 .post .subCard .contentCard .card-footer ul {
+    overflow: hidden;
+}
+
+#content1 .post .subCard .contentCard .card-footer .dropButton {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    background-color: #fff;
+}
+
+#content1 .post .subCard .contentCard .card-footer .dropButton:hover {
+    background-color: #e8dff3;
+}
+
+#content1 .post .cardTong .avaBorder {
+    border-radius: 50%;
+    border: 3px solid #6305D3;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+#content1 .post .cardTong .ava {
+    width: 100%;
+    height: 100%;
+}
+
+#content1 .post .subCard .contentCard .tenTacGia {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+#content1 .post .subCard .contentCard .followButton {
+    background-color: #fff;
+    border: 3px solid #6305D3;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: #6305D3;
+    font-weight: 700;
+}
+
+#content1 .post .cardTong .card-footer {
+    border-top: none;
+    padding-top: 0;
+    background-color: #E3D2F7;
+}
+
+#content1 .post .cardTong .card-footer .boxComment {
+    width: 100%;
+
+}
+
+#content1 .post .cardTong .card-footer .boxComment .inputBox {
+    border: 2px solid #6305D3;
+    padding: 10px 15px 10px 20px;
+    border-radius: 25px;
+    z-index: 0;
+}
+
+#content1 .post .cardTong .card-footer .boxComment .send {
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    width: 100px;
+    height: 100%;
+    right: 0;
+    border: none;
+
+}
+
+#content1 .post .cardTong .card-footer .boxComment .send i {
+    font-size: 24px;
+}
+
+#content1 .post .cardTong .card-footer .boxComment .send:hover i {
+    color: #6305D3;
+}
+
+/* following - content 2 + content 3*/
+.cardTongCnt2 {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 15px;
+    border: 3px solid #6305D3;
+}
+
+.colAvaCnt2 {
+    width: 30%;
+    height: 150px;
+    box-shadow: 0 6px 15px #6305D3;
+    z-index: 1;
+}
+
+/* ảnh */
+.avaCnt2 {
+    width: 100%;
+    height: 100%;
+}
+
+.colContentCnt2 {
+    width: 70%;
+    height: 150px;
+    z-index: 0;
+}
+
+.colContentCnt2 .card {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 15px;
+    /* border-radius: none; */
+}
+
+.colContentCnt2 .card-header {
+    border: none;
+    background-color: transparent;
+}
+
+.colContentCnt2 .card-header .name {
+    font-size: 21px;
+    font-weight: 700;
+    color: #2B005F;
+    text-decoration: none;
+}
+
+.colContentCnt2 .card-body {
+    border: none;
+    background-color: transparent;
+    padding: 5px 16px;
+}
+
+.colContentCnt2 .card-footer {
+    border: none;
+    background-color: transparent;
+    height: 40%;
+}
+
+.colContentCnt2 .card-footer .btnCnt2 {
+    width: 50%;
+    border: 3px solid #6305D3;
+    background-color: #fff;
+    color: #6305D3;
+    border-radius: 5px;
+    padding: 3px 15px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.colContentCnt2 .card-footer .btnCnt2:hover {
+    background: linear-gradient(#6305D3, #25252b);
+    color: #fff;
+    border: none;
+}
+
+#content4 .card {
+    border: none;
+    height: auto;
+    box-shadow: 0 5px 10px #6305D3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* edit profile */
+#content4 .content-edit-profile {
+    padding: 20px;
+    background-color: transparent;
+    margin: 10px 0;
+}
+
+#content4 .content-edit-profile:hover {
+    /* padding: 5px 20px; */
+    background-color: #f2e8ff;
+}
+
+#content4 .line {
+    border: none;
+    background-color: #6305D3;
+    /* font-weight: 700; */
+    height: 2px;
+    margin: 0;
+}
+
+.custom-upload-button {
+    padding: 3px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: inherit;
+    color: #6305D3;
+    background-color: #fff;
+    border: 2px solid #6305D3;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.custom-upload-button:hover {
+    background-color: #f2e8ff;
+}
