@@ -25,3 +25,51 @@
 .anhpayment {
     height: 400px
 }
+
+.section-title{
+    font-weight: 500;
+}
+
+.ten-gia-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.ten-sp{
+    padding-left: 10px;
+}
+.gia-sp{
+    padding-left: 35px;
+}
+
+.shipping-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #333; /* Đường viền ngăn cách phía dưới */
+    margin-bottom: 15px; /* Khoảng cách sau đường viền */
+}
+
+.ship-container{
+    font-weight: 500;
+}
+
+.gia-ship-container{
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+
+.total-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-1{
+    font-weight: 500;
+}
+
+.gia-total{
+    padding-right: 10px;
+    font-weight: 500;
+}
