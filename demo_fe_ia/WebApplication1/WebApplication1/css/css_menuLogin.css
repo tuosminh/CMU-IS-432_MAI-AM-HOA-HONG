@@ -5,22 +5,22 @@
     border-radius: 10px;
 }
 
-.card .tongUC {
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-    overflow: hidden;
-    border-radius: 10px;
-}
+    .card .tongUC {
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        overflow: hidden;
+        border-radius: 10px;
+    }
 
-.card .btnUCLogin {
-    width: 100%;
-    height: 33%;
-    display: grid;
-    place-items: center;
-    text-decoration: none;
-    overflow: hidden;
-}
+    .card .btnUCLogin {
+        width: 100%;
+        height: 33%;
+        display: grid;
+        place-items: center;
+        text-decoration: none;
+        overflow: hidden;
+    }
 
 .btnUCLogin i {
     color: #cea3fe;
@@ -40,6 +40,6 @@
     background-color: #fff;
 }
 
-.active-btn i {
-    color: #6305D3;
-}
+    .active-btn i {
+        color: #6305D3;
+    }

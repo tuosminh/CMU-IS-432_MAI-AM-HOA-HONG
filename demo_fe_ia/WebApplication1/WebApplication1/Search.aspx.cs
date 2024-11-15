@@ -11,7 +11,7 @@ namespace WebApplication1
 {
     public partial class Search : System.Web.UI.Page
     {
-        private string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\git_MAHH\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf;Integrated Security=True";
+        private string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf;Integrated Security=True";
         LopKetNoi kn = new LopKetNoi();
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -74,6 +74,7 @@ namespace WebApplication1
                 Label1.Text = "Please enter a name to search.";
                 Label1.ForeColor = System.Drawing.Color.Red;
             }
+
         }
     }
 }

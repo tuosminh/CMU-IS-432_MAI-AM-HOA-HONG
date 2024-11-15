@@ -78,18 +78,16 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="css\css_exhibition.css" />
     <Content Include="css\css_menuLogin.css" />
     <Content Include="css\css_notification.css" />
+    <Content Include="css\css_photodetails.css" />
     <Content Include="css\css_search.css" />
+    <Content Include="css\css_search02.css" />
+    <Content Include="css\css_setting.css" />
     <Content Include="css\css_signupbsn.css" />
     <Content Include="css\css_upload.css" />
-    <Content Include="images\AVT_DAIDIEN\hinhavt1.jpg" />
-    <Content Include="images\AVT_DAIDIEN\hinhavt2.jpg" />
-    <Content Include="images\AVT_DAIDIEN\hinhavt3.jpg" />
-    <Content Include="images\AVT_DAIDIEN\hinhavt4.jpg" />
-    <Content Include="images\AVT_DAIDIEN\hinhavt5.jpg" />
-    <Content Include="images\AVT_DAIDIEN\hinhavt6.jpg" />
-    <Content Include="images\AVT_DAIDIEN\hinhavt7.jpg" />
+    <Content Include="css\css_collection.css" />
     <Content Include="Chatting.aspx" />
     <Content Include="Collection.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -113,16 +111,37 @@
     <Content Include="css\css_menu.css" />
     <Content Include="css\css_photos.css" />
     <Content Include="css\css_profile.css" />
+    <Content Include="css\css_signUp.css" />
+    <Content Include="css\css_shoppingcart.css" />
+    <Content Include="css\css_orderdetail.css" />
     <Content Include="ExhibitionCorner.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Help.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="images\avatar.jpg" />
+    <Content Include="images\AVT_DAIDIEN\hinhavt1.jpg" />
+    <Content Include="images\AVT_DAIDIEN\hinhavt2.jpg" />
+    <Content Include="images\AVT_DAIDIEN\hinhavt3.jpg" />
+    <Content Include="images\AVT_DAIDIEN\hinhavt4.jpg" />
+    <Content Include="images\AVT_DAIDIEN\hinhavt5.jpg" />
+    <Content Include="images\AVT_DAIDIEN\hinhavt6.jpg" />
+    <Content Include="images\AVT_DAIDIEN\hinhavt7.jpg" />
     <Content Include="images\AVT_DAIDIEN\hinhavt9.jpg" />
     <Content Include="images\GoogleLogo.png" />
-    <Content Include="images\imgSignUpPage.png" />
     <Content Include="images\imgLoginPage.png" />
+    <Content Include="images\imgSignUpPage.png" />
+    <Content Include="images\img_cart\10.jpg" />
+    <Content Include="images\img_cart\11.jpg" />
     <Content Include="images\img_home\1.jpg" />
+    <Content Include="images\img_home\10.jpg" />
+    <Content Include="images\img_home\12.jpg" />
+    <Content Include="images\img_home\13.jpg" />
+    <Content Include="images\img_home\14.jpg" />
+    <Content Include="images\img_home\15.jpg" />
+    <Content Include="images\img_home\16.jpg" />
+    <Content Include="images\img_home\17.jpg" />
+    <Content Include="images\img_home\18.jpg" />
+    <Content Include="images\img_home\19.jpg" />
     <Content Include="images\img_home\2.jpg" />
     <Content Include="images\img_home\3.jpg" />
     <Content Include="images\img_home\4.jpg" />
@@ -131,7 +150,15 @@
     <Content Include="images\img_home\7.jpg" />
     <Content Include="images\img_home\8.jpg" />
     <Content Include="images\img_home\9.jpg" />
-    <Content Include="images\img_home\10.jpg" />
+    <Content Include="images\img_payment\payment.png" />
+    <Content Include="images\img_realtimearthub\12.jpg" />
+    <Content Include="images\img_realtimearthub\13.jpg" />
+    <Content Include="images\img_realtimearthub\14.jpg" />
+    <Content Include="images\img_realtimearthub\avt.jpg" />
+    <Content Include="images\img_realtimeauctions\21.jpg" />
+    <Content Include="images\img_realtimeauctions\22.jpg" />
+    <Content Include="images\img_realtimeauctions\23.jpg" />
+    <Content Include="images\img_realtimeauctions\avt.jpg" />
     <Content Include="images\lg_IA-tachNen.png" />
     <Content Include="images\lg_IA.jpg" />
     <Content Include="images\post_image\1.png" />
@@ -146,6 +173,10 @@
     <Content Include="images\post_image\methiennhien.jpg" />
     <Content Include="images\post_image\photan.jpg" />
     <Content Include="images\post_image\tuong.jpg" />
+    <Content Include="img_collection\COLLECTION1.jpg" />
+    <Content Include="img_collection\COLLECTION2.jpg" />
+    <Content Include="img_collection\COLLECTION3.jpg" />
+    <Content Include="img_collection\COLLECTION4.jpg" />
     <Content Include="img_sanpham\10.jpg" />
     <Content Include="img_sanpham\11.jpg" />
     <Content Include="img_sanpham\12.jpg" />
@@ -154,17 +185,27 @@
     <Content Include="img_sanpham\15.jpg" />
     <Content Include="img_sanpham\16.jpg" />
     <Content Include="img_sanpham\17.jpg" />
+    <Content Include="img_topmusic\MUSIC.jpeg" />
+    <Content Include="img_toppainting\LOVEBYTHELAKE.jpeg" />
+    <Content Include="js\collection.js" />
+    <Content Include="js\exhibition.js" />
     <Content Include="js\js_login.js" />
     <Content Include="js\js_profile.js" />
     <Content Include="js\js_userControlLogin.js" />
     <Content Include="Login.aspx" />
     <Content Include="Melody.aspx" />
     <Content Include="MelodyDetails.aspx" />
-    <Content Include="MenuLogin.ascx" />
+    <Content Include="Menulogin.ascx" />
     <Content Include="Notification.aspx" />
     <Content Include="OrderDetails.aspx" />
     <Content Include="PhotoDetails.aspx" />
     <Content Include="Photos.aspx" />
+    <Content Include="photo_img\1.jpg" />
+    <Content Include="photo_img\sanpham1.jpg" />
+    <Content Include="photo_img\sanpham2.jpg" />
+    <Content Include="photo_img\sanpham3.jpg" />
+    <Content Include="photo_img\sanpham4.jpg" />
+    <Content Include="photo_img\sanpham5.jpg" />
     <Content Include="Profile.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -178,6 +219,12 @@
     <Content Include="SignUp.aspx" />
     <Content Include="Signup_Business.aspx" />
     <Content Include="Upload.aspx" />
+    <Content Include="video-ex\video-1.mp4" />
+    <Content Include="video-ex\video-2.mp4" />
+    <Content Include="video-ex\video-3.mp4" />
+    <Content Include="video-ex\video-4.mp4" />
+    <Content Include="video-ex\video-5.mp4" />
+    <Content Include="video-ex\video-6.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -241,12 +288,12 @@
     <Compile Include="MelodyDetails.aspx.designer.cs">
       <DependentUpon>MelodyDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MenuLogin.ascx.cs">
-      <DependentUpon>MenuLogin.ascx</DependentUpon>
+    <Compile Include="Menulogin.ascx.cs">
+      <DependentUpon>Menulogin.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MenuLogin.ascx.designer.cs">
-      <DependentUpon>MenuLogin.ascx</DependentUpon>
+    <Compile Include="Menulogin.ascx.designer.cs">
+      <DependentUpon>Menulogin.ascx</DependentUpon>
     </Compile>
     <Compile Include="Models\KhachHang.cs" />
     <Compile Include="Models\KhachHangDbContext.cs" />

@@ -1,35 +1,56 @@
-﻿.text-container {
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 10px;
-    color: #6305D3;
-    border: 2px; /* Đặt viền đen dày 2px */
-    background-color: #f9f9f9; /* Màu nền của khung */
-    width: 70%px; /* Đặt chiều rộng khung */
-    height: 50px;
-    box-shadow: 0 5px 10px #6305D3;
-    position: relative;
+﻿.advan {
+    width: 20%;
 }
 
-.notification-item {
-    border-bottom: 2px solid #6305D3;
-    padding: 5px 0;
-    transition: background-color 0.3s ease;
+.content-noti {
+    width: 80%;
 }
 
-    .notification-item:hover {
-        background-color: rgba(128, 0, 128, 0.2);
+    .content-noti .card {
+        border: none;
     }
 
+        .content-noti .card .card-header {
+            background-color: #fff;
+            /* border: 1px solid #6305D3; */
+            border-radius: 10px;
+            box-shadow: 0 5px 10px #6305D3;
+        }
 
-.notification-button {
-    border: none;
-    background: none;
-    text-align: left;
-    width: 100%;
-    font-size: 15px;
-    padding-left: 50px;
-    cursor: pointer;
-}
 
-​12:27/-strong/-heart: > :o:-((:-h Xem trước khi gửiThả Files vào đây để xem lại trước khi gửi
+            .content-noti .card .card-header h3 {
+                margin: 5px 0 5px 0;
+                font-weight: 700;
+                color: #6305D3;
+            }
+
+        .content-noti .card .card-body {
+            box-shadow: 0 5px 10px #6305D3;
+            border-radius: 10px;
+            margin: 30px 0;
+            /* position: relative; */
+            overflow: hidden;
+        }
+
+            .content-noti .card .card-body .accordion .accordion-header .accordion-button {
+                width: 100%;
+                font-size: 16px;
+            }
+
+            .content-noti .card .card-body .accordion-item {
+                border: 1px solid #6305D3;
+                overflow: hidden;
+            }
+
+
+    .content-noti .card-body .accordion-item .accordion-button:not(.collapsed) {
+        box-shadow: 0 5px 15px #6305D3;
+        background-color: #fff;
+        font-weight: 700;
+        color: #6305D3;
+        font-size: 18px;
+    }
+
+    .content-noti .card-body .accordion-item .accordion-button .title {
+        width: 75%;
+    }

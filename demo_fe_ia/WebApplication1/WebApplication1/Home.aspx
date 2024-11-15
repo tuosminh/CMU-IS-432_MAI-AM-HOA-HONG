@@ -2,11 +2,11 @@
     Inherits="WebApplication1.Home" %>
 
     <%@ Register Src="~/MenuLogin.ascx" TagPrefix="uc1" TagName="MenuLogin" %>
-
-
-
         <asp:Content ID="Home" ContentPlaceHolderID="content" runat="server" CssClass="w-100">
             <link href="css/css_home.css" rel="stylesheet" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
             <div class="container d-flex flex-column justify-content-center align-items-center">
                 <div class="row firstRow">
                     <div class="firstRow-content d-flex">
@@ -24,7 +24,8 @@
                             <div class="background"></div>
                             <div class="img-background">
                                 <%--<img src="images/img_home/10.jpg" />--%>
-                                <img src="images/img_home/2.jpg" />
+                                <%--<img src="images/img_home/2.jpg" />--%>
+                                <img src="images/img_home/12.jpg" />
                             </div>
                         </div>
 
@@ -45,15 +46,15 @@
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="images/img_home/1.jpg" style="height: 400px" class="d-block w-100"
+                                        <img src="images/img_home/1.jpg" style="height: 600px" class="d-block w-100"
                                             alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="images/img_home/2.jpg" style="height: 400px" class="d-block w-100"
+                                        <img src="images/img_home/2.jpg" style="height: 600px" class="d-block w-100"
                                             alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="images/img_home/3.jpg" style="height: 400px" class="d-block w-100"
+                                        <img src="images/img_home/3.jpg" style="height: 600px" class="d-block w-100"
                                             alt="...">
                                     </div>
                                 </div>
@@ -70,11 +71,70 @@
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="row intro-Row mb-5 pt-4">
+                            <div class="col-lg-12">
+                                <div class="intro-Row-header">
+                                    <h2 class="m-0">The Art
+                                        Story</h2>
+                                </div>
+                                <div class="row intro-Row-body d-flex justify-content-around">
+                                    <div class="col-lg-3 pt-4">
+                                        <div class="title-card card">
+                                            <h4>Hành trình sáng tạo</h4>
+                                        </div>
+                                        <div class="content-card card">
+                                            <div class="card-header">
+                                                <img src="images/img_home/17.jpg" />
+                                                <%--<img src="images/img_home/16.jpg" />--%>
+                                                <%--<img src="images/img_home/10.jpg" />--%>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>Khám phá câu chuyện đằng sau mỗi tác phẩm, nơi cảm hứng và đam mê
+                                                    nghệ
+                                                    thuật
+                                                    hòa quyện, tạo nên những trải nghiệm đầy
+                                                    cảm xúc.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 pt-4">
+                                        <div class="title-card card">
+                                            <h4>Sức mạnh nghệ thuật</h4>
+                                        </div>
+                                        <div class="content-card card">
+                                            <div class="card-header">
+                                                <img src="images/img_home/18.jpg" />
+                                                <%--<img src="images/img_home/10.jpg" />--%>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>Với chúng tôi, nghệ thuật không chỉ là hình ảnh mà còn là ngôn ngữ
+                                                    truyền tải ý tưởng và câu chuyện, mang lại sự kết
+                                                    nối và cảm hứng.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 pt-4">
+                                        <div class="title-card card">
+                                            <h4>Không gian sáng tạo</h4>
+                                        </div>
+                                        <div class="content-card card">
+                                            <div class="card-header">
+                                                <img src="images/img_home/16.jpg" />
+                                            </div>
+                                            <div class="card-body">
+                                                <p>Chúng tôi tạo ra một môi trường nơi mọi người có thể thỏa sức sáng
+                                                    tạo và thể hiện bản thân thông qua nghệ thuật
+                                                    truyền cảm hứng.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
 
                         </div>
 
-                        <div class="box box1 row mb-5">
+                        <div class="row box box1 mb-5 pt-5">
                             <div class="col-lg-12 p-0">
                                 <div class="card">
                                     <div class="row d-flex">
@@ -123,7 +183,29 @@
                             </div>
                         </div>
 
-                        <div class="box box2 row mb-5">
+                        <div class="row introTwo-Row mb-5 pt-5">
+                            <div class="col-lg-12">
+                                <div class="row d-flex align-items-center justify-content-around">
+                                    <div class="col-lg-5 content-introTwo-Row ">
+                                        <h4>Nghệ thuật được truyền cảm hứng là nơi các nghệ sĩ biến ý tưởng và cảm xúc
+                                            thành
+                                            hình ảnh sống động, tạo nên tác phẩm
+                                            mang dấu ấn độc đáo, khơi gợi kết nối sâu sắc với người xem.</h4>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class=" img-introTwo-Row p-3">
+                                            <img src="images/img_home/13.jpg" />
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="row box box2 mb-5 pt-5">
                             <div class="col-lg-12 p-0">
                                 <div class="card p-4">
                                     <div class="row d-flex">
@@ -161,5 +243,5 @@
                 </div>
 
             </div>
-
+            <script src="js/js_home.js"></script>
         </asp:Content>

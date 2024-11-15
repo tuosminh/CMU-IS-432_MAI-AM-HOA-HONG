@@ -39,7 +39,7 @@ namespace WebApplication1
 
 
                     // Kết nối tới cơ sở dữ liệu và thực hiện lệnh INSERT
-                    string sql = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf;Integrated Security=True";
+                    string sql = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf;Integrated Security=True"; // Thay bằng chuỗi kết nối thực tế của bạn
                     using (SqlConnection conn = new SqlConnection(sql))
                     {
                         conn.Open();
@@ -95,7 +95,7 @@ namespace WebApplication1
         }
         public void SaveImageToDatabase(string base64String, string uploadTitle)
         {
-            string sqlConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf;Integrated Security=True";
+            string sqlConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\git_MAHH\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf;Integrated Security=True";  // Thay bằng chuỗi kết nối của bạn
             using (SqlConnection conn = new SqlConnection(sqlConnectionString))
             {
                 conn.Open();

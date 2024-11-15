@@ -1,0 +1,27 @@
+﻿.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px; /* Spacing between sections */
+}
+
+.row-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row-1 {
+    flex: 1; /* Takes the remaining space */
+    padding-right: 20px; /* Adds space between sections */
+}
+
+.row-2 {
+    flex: 0 0 35%; /* Adjusted width to 35% */
+    align-self: flex-start; /* Aligns payment section at the top */
+    margin-top: 20px; /* Adds spacing from the top */
+}
+
+.anhpayment {
+    height: 400px
+}

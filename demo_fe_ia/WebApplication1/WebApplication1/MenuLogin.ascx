@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MenuLogin.ascx.cs" Inherits="WebApplication1.MenuLogin" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Menulogin.ascx.cs" Inherits="WebApplication1.Menulogin" %>
 
 <link href="css/css_menuLogin.css" rel="stylesheet" />
 <div class="card me-5">

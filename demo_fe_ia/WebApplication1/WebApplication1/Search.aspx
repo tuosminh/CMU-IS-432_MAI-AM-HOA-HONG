@@ -1,10 +1,15 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Menu.Master" AutoEventWireup="true" CodeBehind="Search.aspx.cs" Inherits="WebApplication1.Search" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="content" runat="server">
-        <link rel="stylesheet" href="css/css_search.css">
+    <link href="css/css_search.css" rel="stylesheet" />
      <div class="search-bar">
-        <asp:Label ID="Label1" runat="server" Text="Search"></asp:Label>
-        <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged" AutoPostBack="true"></asp:TextBox>
+    <asp:Label ID="Label1" runat="server" ></asp:Label>
+   <div class="search-input-wrapper" style="display: flex;">
+
+        <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged" Style="margin-top:100px" AutoPostBack="true" CssClass="search-textbox"></asp:TextBox>
+      <asp:Button ID="btnSearch" runat="server" Text="Search" Style="width: 100px;height: 50px;margin-left: 15px;margin-top: 100px;border-radius: 10px;" />
     </div>
+
+</div>
     <br />
 
    <!--<asp:Label ID="Label2" runat="server" Text="Recent Searches"></asp:Label>-->
@@ -25,7 +30,7 @@
     <ItemTemplate>
         <div class="datalist-item">
             <asp:ImageButton ID="ImageButton1" runat="server" CommandArgument='<%# Eval("IDSANPHAM") %>' 
-                             ImageUrl='<%# "img_sanpham/" + Eval("ANHSANPHAM") %>' />
+                             ImageUrl='<%# "images/img_cart/" + Eval("ANHSANPHAM") %>' />
             <asp:LinkButton ID="LinkButton1" runat="server" CommandArgument='<%# Eval("IDSANPHAM") %>' 
                             Text='<%# Eval("TENSANPHAM") %>'></asp:LinkButton>
         </div>

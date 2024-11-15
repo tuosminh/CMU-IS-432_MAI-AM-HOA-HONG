@@ -144,29 +144,31 @@
                                                                                             <div
                                                                                                 class="d-flex align-items-center">
                                                                                                 <div class="avaBorder">
-                                                                                                    <asp:ImageButton
+                                                                                                    <asp:Image ID="Image4" runat="server" ImageUrl="images/avatar.jpg" CssClass="ava"/>
+                                                                                                    <%--<asp:ImageButton
                                                                                                         ID="ImageButton1"
                                                                                                         runat="server"
                                                                                                         CommandArgument='<%# Eval("IDBAIDANG") %>'
                                                                                                         ImageUrl='<%# "images/post_image/"+Eval("AVATARTACGIA") %>'
-                                                                                                        CssClass="ava" />
+                                                                                                        CssClass="ava" />--%>
                                                                                                 </div>
                                                                                                 <div class="ps-3">
-                                                                                                    <asp:Label
+                                                                                                    <asp:Label ID="Label5" runat="server" Text="Ly Ly" CssClass="tenTacGia"></asp:Label>
+                                                                                                    <%--<asp:Label
                                                                                                         ID="Label1"
                                                                                                         runat="server"
                                                                                                         Text='<%# Eval("TENTACGIA") %>'
                                                                                                         CssClass="tenTacGia">
-                                                                                                    </asp:Label>
+                                                                                                    </asp:Label>--%>
                                                                                                 </div>
                                                                                             </div>
 
-                                                                                            <div class="">
+                                                                                            <!-- <div class="">
                                                                                                 <asp:Button ID="Button5"
                                                                                                     runat="server"
                                                                                                     Text="Button"
                                                                                                     CssClass="followButton" />
-                                                                                            </div>
+                                                                                            </div> -->
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -333,10 +335,10 @@
                                                                                                 </div>
                                                                                             </div>
 
-                                                                                            <div class="">
+                                                                                            <div class="btn-boxTacGia">
                                                                                                 <asp:Button ID="Button5"
                                                                                                     runat="server"
-                                                                                                    Text="Button"
+                                                                                                    Text="Following"
                                                                                                     CssClass="followButton" />
                                                                                             </div>
                                                                                         </div>
@@ -626,14 +628,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
 
 
         <script src="js/js_profile.js"></script>

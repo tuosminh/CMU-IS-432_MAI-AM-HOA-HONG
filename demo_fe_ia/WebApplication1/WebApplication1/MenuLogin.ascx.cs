@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication1
 {
-    public partial class MenuLogin : System.Web.UI.UserControl
+    public partial class Menulogin : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
         {

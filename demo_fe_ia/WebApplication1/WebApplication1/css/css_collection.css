@@ -1,0 +1,106 @@
+﻿/* Container tổng thể */
+.col-lg-12 {
+    max-width: 100%;
+    /* margin: 10px auto; */
+}
+
+/* .container .painting-catalog{
+    width: 100%;
+    height: auto;
+} */
+
+
+/* Header chứa Label1 và Button1 */
+.catalog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #6305D3;
+    align-items: center;
+}
+
+.large-box {
+    background-color: #fff;
+    border: 2px solid #7d1fa3;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.large-box-1 {
+    width: 200px; /* Chiều rộng của khung */
+    height: 250px; /* Chiều cao của khung */
+    border: 3px solid #7d1fa3; /* Màu và độ dày khung */
+    border-radius: 10px; /* Bo góc */
+    padding: 12px; /* Khoảng cách bên trong */
+}
+
+.button-dauCong {
+    font-size: 120px;
+    color: #7d1fa3;
+    border: 2px solid #7d1fa3;
+    width: 170px;
+    height: auto;
+    background-color: white;
+    /* margin-top: 10px; */
+}
+
+.button-container button {
+    font-size: 24px;
+    color: #7d1fa3;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.label-2 {
+    font-weight: bold;
+    color: #7d1fa3;
+}
+
+
+
+.image-grid {
+    width: 230px;
+    margin: 30px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+    box-shadow: 0 5px 5px #6305D3;
+}
+
+.image-button {
+    border: 2px solid #6305D3; /* Đường viền 2px màu xám đậm */
+    border-radius: 5px; /* Bo góc 5px (tuỳ chọn) */
+    padding: 5px; /* Khoảng cách giữa viền và nội dung bên trong */
+    box-sizing: border-box; /* Giúp viền không làm tăng kích thước tổng thể */
+}
+
+
+
+.title {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.gradient-border {
+    padding: 10px;
+}

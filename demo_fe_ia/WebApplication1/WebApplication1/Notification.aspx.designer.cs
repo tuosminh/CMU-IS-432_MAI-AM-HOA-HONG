@@ -15,21 +15,12 @@ namespace WebApplication1
     {
 
         /// <summary>
-        /// Label1 control.
+        /// ds_thongbao control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
-
-        /// <summary>
-        /// DSTHONGBAO control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList DSTHONGBAO;
+        protected global::System.Web.UI.WebControls.DataList ds_thongbao;
     }
 }
