@@ -422,6 +422,7 @@
     <Folder Include="images\img-avatar\" />
     <Folder Include="images\img_melody\" />
     <Folder Include="images\img_photos\" />
+    <Folder Include="mp3file\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

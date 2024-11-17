@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\search.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\search.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\shoppingcart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\shoppingcart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -61,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\orderdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\orderdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\search.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\search.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\js\\exhibition.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -174,19 +174,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Menu.Master",
-              "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menu.Master",
-              "RelativeDocumentMoniker": "WebApplication1\\Menu.Master",
-              "ToolTip": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menu.Master",
-              "RelativeToolTip": "WebApplication1\\Menu.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-13T16:00:08.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "css_setting.css",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_setting.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_setting.css",
@@ -198,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Setting.aspx",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Setting.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Setting.aspx",
@@ -210,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "css_collection.css",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_collection.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_collection.css",
@@ -223,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Upload.aspx",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Upload.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Upload.aspx",
@@ -236,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ShoppingCart.aspx",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\ShoppingCart.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\ShoppingCart.aspx",
@@ -249,7 +236,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Search.aspx",
+              "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Search.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Search.aspx",
+              "ToolTip": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Search.aspx",
+              "RelativeToolTip": "WebApplication1\\Search.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-14T12:43:56.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Menu.Master",
+              "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menu.Master",
+              "RelativeDocumentMoniker": "WebApplication1\\Menu.Master",
+              "ToolTip": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menu.Master",
+              "RelativeToolTip": "WebApplication1\\Menu.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-13T16:00:08.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "LopKetNoi.cs",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\LopKetNoi.cs",
               "RelativeDocumentMoniker": "WebApplication1\\LopKetNoi.cs",
@@ -261,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Collection.aspx",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Collection.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Collection.aspx",
@@ -273,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "hinhavt2.jpg",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\images\\AVT_DAIDIEN\\hinhavt2.jpg",
               "RelativeDocumentMoniker": "WebApplication1\\images\\AVT_DAIDIEN\\hinhavt2.jpg",
@@ -284,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "avatar.jpg",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\images\\avatar.jpg",
               "RelativeDocumentMoniker": "WebApplication1\\images\\avatar.jpg",
@@ -295,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Setting.aspx.cs",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Setting.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Setting.aspx.cs",
@@ -307,19 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Search.aspx",
-              "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Search.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\Search.aspx",
-              "ToolTip": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Search.aspx",
-              "RelativeToolTip": "WebApplication1\\Search.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-14T12:43:56.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "collection.js",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\js\\collection.js",
               "RelativeDocumentMoniker": "WebApplication1\\js\\collection.js",
@@ -331,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "OrderDetails.aspx.cs",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\OrderDetails.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\OrderDetails.aspx.cs",
@@ -343,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "OrderDetails.aspx",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\OrderDetails.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\OrderDetails.aspx",
@@ -367,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ExhibitionCorner.aspx",
               "DocumentMoniker": "E:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\ExhibitionCorner.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\ExhibitionCorner.aspx",

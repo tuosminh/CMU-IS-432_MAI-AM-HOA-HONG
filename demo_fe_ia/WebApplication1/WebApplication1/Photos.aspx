@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Menu.Master" AutoEventWireup="true" CodeBehind="Photos.aspx.cs"
+﻿%@ Page Title="" Language="C#" MasterPageFile="~/Menu.Master" AutoEventWireup="true" CodeBehind="Photos.aspx.cs"
     Inherits="WebApplication1.Photos" %>
     <asp:Content ID="Photos" ContentPlaceHolderID="content" runat="server">
             <link href="css/css_photos.css" rel="stylesheet" />

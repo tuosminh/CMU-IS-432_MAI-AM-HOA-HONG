@@ -13,7 +13,7 @@ namespace WebApplication1
 
         private void MoKetNoi()
         {
-            string SqlCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\git_MainV02\LY_NAM-SPM-\demo_fe_ia\WebApplication1\WebApplication1\App_Data\Database1.mdf;Integrated Security=True";
+            string SqlCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\git_MainV02\LY_NAM-SPM-\demo_fe_ia\WebApplication1\WebApplication1\App_Data\Database1.mdf;Integrated Security=True";
             cn = new SqlConnection(SqlCon);
 
             cn.Open();
@@ -42,6 +42,29 @@ namespace WebApplication1
 
             return dt;
         }
+
+        public DataTable LayDuLieuMS(string sql)
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                MoKetNoi();
+                using (SqlDataAdapter adapter = new SqlDataAdapter(sql, cn))
+                {
+                    adapter.Fill(dataTable);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+            finally
+            {
+                DongKetNoi();
+            }
+            return dataTable;
+        }
+
 
         // Phương thức để lấy dữ liệu (SELECT) với tham số
         public DataTable LayDuLieu(string sql, SqlParameter[] parameters)
