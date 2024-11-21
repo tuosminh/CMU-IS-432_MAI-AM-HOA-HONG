@@ -41,13 +41,13 @@
                                     </a>
                                 </li>
                                 <li class="nav-link">
-                                    <a>
+                                    <a href="Admin_UserManage.aspx">
                                         <i class="fa-solid fa-user icon"></i>
                                         <span class=" text nav-text">User management</span>
                                     </a>
                                 </li>
                                 <li class="nav-link">
-                                    <a>
+                                    <a href="Admin_OrderManage.aspx">
                                         <i class="fa-solid fa-cart-shopping icon"></i>
                                         <span class=" text nav-text">Order Management</span>
                                     </a>

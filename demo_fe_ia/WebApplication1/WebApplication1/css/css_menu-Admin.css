@@ -7,7 +7,7 @@
     --shadow-color: #00AAFF;
     --background-color: #00AAFF;
     --text-color: #fff;
-
+    --toggle-color: #18191A;
     /* transition */
     --tran-02: all 0.2s ease;
     --tran-03: all 0.3s ease;
@@ -104,19 +104,20 @@ nav .card .card-header .logo h5 {
     transition: var(--tran-05);
 }
 
-.sidebar .card-header .toggle {
-    position: absolute;
-    top: 50%;
-    right: -15px;
-    transform: translateY(-50%);
-    height: 25px;
-    width: 25px;
-    background-color: var(--title-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-}
+    .sidebar .card-header .toggle {
+        position: absolute;
+        top: 50%;
+        right: -15px;
+        transform: translateY(-50%);
+        height: 25px;
+        width: 25px;
+        background-color: var(--title-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: var(--toggle-color);
+    }
 
 .sidebar .card-body {
     overflow: hidden;
@@ -254,13 +255,10 @@ body.light {
     --text-color: #000;
     --card-color: #fff;
     --title-color: #0016bd;
-
-
     --border-color: #0016bd;
-
     --shadow-color: #0016bd;
     --background-color: #0016bd;
-
+    --toggle-color: #fff;
 }
 
 .mainContent {

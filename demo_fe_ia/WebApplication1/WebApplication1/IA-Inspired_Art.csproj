@@ -75,11 +75,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="a.aspx" />
+    <Content Include="Admin_Login.aspx" />
+    <Content Include="Admin_OrderManage.aspx" />
+    <Content Include="Admin_UserManage.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
-    <Content Include="css\css_admin_menuAdmin.css" />
     <Content Include="css\css_exhibition.css" />
     <Content Include="css\css_menu-Admin.css" />
     <Content Include="css\css_menuLogin.css" />
@@ -238,6 +240,27 @@
     </Compile>
     <Compile Include="a.aspx.designer.cs">
       <DependentUpon>a.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Login.aspx.cs">
+      <DependentUpon>Admin_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Login.aspx.designer.cs">
+      <DependentUpon>Admin_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_OrderManage.aspx.cs">
+      <DependentUpon>Admin_OrderManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_OrderManage.aspx.designer.cs">
+      <DependentUpon>Admin_OrderManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_UserManage.aspx.cs">
+      <DependentUpon>Admin_UserManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_UserManage.aspx.designer.cs">
+      <DependentUpon>Admin_UserManage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chatting.aspx.cs">
       <DependentUpon>Chatting.aspx</DependentUpon>
