@@ -74,11 +74,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="a.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="css\css_admin_menuAdmin.css" />
     <Content Include="css\css_exhibition.css" />
+    <Content Include="css\css_menu-Admin.css" />
     <Content Include="css\css_menuLogin.css" />
     <Content Include="css\css_notification.css" />
     <Content Include="css\css_photodetails.css" />
@@ -190,6 +193,7 @@
     <Content Include="js\collection.js" />
     <Content Include="js\exhibition.js" />
     <Content Include="js\js_login.js" />
+    <Content Include="js\js_menuAdmin.js" />
     <Content Include="js\js_profile.js" />
     <Content Include="js\js_userControlLogin.js" />
     <Content Include="Login.aspx" />
@@ -228,6 +232,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="a.aspx.cs">
+      <DependentUpon>a.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="a.aspx.designer.cs">
+      <DependentUpon>a.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Chatting.aspx.cs">
       <DependentUpon>Chatting.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -287,6 +298,13 @@
     </Compile>
     <Compile Include="MelodyDetails.aspx.designer.cs">
       <DependentUpon>MelodyDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdmin.Master.cs">
+      <DependentUpon>MenuAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuAdmin.Master.designer.cs">
+      <DependentUpon>MenuAdmin.Master</DependentUpon>
     </Compile>
     <Compile Include="Menulogin.ascx.cs">
       <DependentUpon>Menulogin.ascx</DependentUpon>
@@ -402,6 +420,7 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <None Include=".editorconfig" />
     <Content Include=".vscode\settings.json" />
+    <Content Include="MenuAdmin.Master" />
     <None Include="packages.config" />
     <Content Include="Menu.Master" />
     <Content Include="Scripts\bootstrap.min.js.map" />
