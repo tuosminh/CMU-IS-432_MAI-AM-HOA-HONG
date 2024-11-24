@@ -30,11 +30,11 @@
 
 .btnUCLogin:not(.active-btn):hover,
 .btnUCLogin:not(.active-btn):hover i {
-    color: #6305D3;
+    color: #6305D3 !important;
 }
 
 .active-btn {
-    z-index: 1;
+    z-index: 1 !important;
     box-shadow: 0 0 25px #6305D3;
     border-radius: 10px;
     background-color: #fff;

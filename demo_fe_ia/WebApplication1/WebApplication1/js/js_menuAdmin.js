@@ -25,7 +25,12 @@ modeSwitch.addEventListener("click", () => {
     }
 });
 
-
+//document.addEventListener('show.bs.modal', function () {
+//    const backdrop = document.querySelector('.modal-backdrop');
+//    if (backdrop) {
+//        backdrop.style.zIndex = '-1';
+//    }
+//});
 
 // document.addEventListener("DOMContentLoaded", () => {
 //     const body = document.querySelector("body");

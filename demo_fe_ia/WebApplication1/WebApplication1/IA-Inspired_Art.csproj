@@ -119,6 +119,8 @@
     <Content Include="css\css_signUp.css" />
     <Content Include="css\css_shoppingcart.css" />
     <Content Include="css\css_orderdetail.css" />
+    <Content Include="css\css_userManage-Admin.css" />
+    <Content Include="demo.aspx" />
     <Content Include="ExhibitionCorner.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Help.aspx" />
@@ -198,6 +200,7 @@
     <Content Include="js\js_menuAdmin.js" />
     <Content Include="js\js_profile.js" />
     <Content Include="js\js_userControlLogin.js" />
+    <Content Include="js\js_userManage-Admin.js" />
     <Content Include="Login.aspx" />
     <Content Include="Melody.aspx" />
     <Content Include="MelodyDetails.aspx" />
@@ -275,6 +278,13 @@
     </Compile>
     <Compile Include="Collection.aspx.designer.cs">
       <DependentUpon>Collection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo.aspx.cs">
+      <DependentUpon>demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo.aspx.designer.cs">
+      <DependentUpon>demo.aspx</DependentUpon>
     </Compile>
     <Compile Include="ExhibitionCorner.aspx.cs">
       <DependentUpon>ExhibitionCorner.aspx</DependentUpon>

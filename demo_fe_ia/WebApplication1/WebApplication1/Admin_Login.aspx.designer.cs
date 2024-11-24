@@ -24,13 +24,13 @@ namespace WebApplication1
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Emaillg control.
+        /// Menulogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Emaillg;
+        protected global::WebApplication1.Menulogin Menulogin;
 
         /// <summary>
         /// txtEmailAM control.
@@ -42,15 +42,6 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.TextBox txtEmailAM;
 
         /// <summary>
-        /// Passlg control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Passlg;
-
-        /// <summary>
         /// txtPassAM control.
         /// </summary>
         /// <remarks>
@@ -60,15 +51,6 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.TextBox txtPassAM;
 
         /// <summary>
-        /// Buttonlogin control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Buttonlogin;
-
-        /// <summary>
         /// lblMessage control.
         /// </summary>
         /// <remarks>
@@ -76,5 +58,14 @@ namespace WebApplication1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMessage;
+
+        /// <summary>
+        /// Buttonlogin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Buttonlogin;
     }
 }
