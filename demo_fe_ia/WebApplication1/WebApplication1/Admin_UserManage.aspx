@@ -78,6 +78,9 @@
                                                     CommandName="Edit" CommandArgument='<%# Eval("IDKHACHHANG") %>'
                                                     OnCommand="btnEdit_Click" data-bs-toggle="modal"
                                                     data-bs-target="#exampleModal" />--%>
+                                                 <asp:Button ID="btnEdit" runat="server" Text="Edit"
+                                                     CommandName="Edit" CommandArgument='<%# Eval("IDKHACHHANG") %>'
+                                                       OnCommand="btnEdit_Click" />
 
                                                 <asp:Button ID="btnDelete" runat="server" Text="Delete"
                                                     CommandName="Xoa" CommandArgument='<%# Eval("IDKHACHHANG") %>'
