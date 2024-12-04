@@ -13,5 +13,12 @@ namespace WebApplication1
         {
 
         }
+
+        protected void btnlogout_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+
+        }
+
     }
 }

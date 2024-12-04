@@ -1,0 +1,346 @@
+﻿.row-frame {
+    width: 100%;
+    height: 545px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.title-setting {
+    font-size: 40px;
+    font-weight: bold;
+    color: yellow;
+    margin-left: 35%;
+}
+
+.language-setting {
+    display: flex;
+    gap: 220px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background: #3C2F58;
+    color: white;
+}
+
+.label12-language {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.drop-language {
+    background-color: #1A1A40;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notification-setting {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background: #3C2F58;
+    color: white;
+}
+
+.label13-notification {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* Tổng quan về container */
+.toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Khoảng cách giữa chữ và toggle button */
+}
+
+/* Ẩn checkbox mặc định */
+.toggle-checkbox {
+    display: none;
+}
+
+/* Label toggle button */
+.toggle-label {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    /* Màu nền ban đầu */
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    /* Bóng tròn di chuyển bên trong */
+    .toggle-label::after {
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 24px;
+        height: 24px;
+        background-color: white;
+        border-radius: 50%;
+        transition: transform 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+/* Khi checkbox được chọn, đổi trạng thái */
+.toggle-checkbox:checked + .toggle-label {
+    background-color: #FF6E40;
+}
+
+    /* Di chuyển bóng tròn sang phải khi bật */
+    .toggle-checkbox:checked + .toggle-label::after {
+        transform: translateX(30px);
+    }
+
+.toggle-text {
+    font-size: 16px;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+    .toggle-text.on {
+        color: #fff;
+    }
+
+.toggle-checkbox:checked ~ .on {
+    color: #007BFF;
+}
+
+.toggle-text.off {
+    color: #fff;
+}
+
+.toggle-checkbox:checked ~ .off {
+    color: #fff;
+}
+
+
+.interface-container {
+    display: flex;
+    align-items: center;
+}
+
+.interface-setting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background: #3C2F58;
+    color: white;
+}
+
+.label14-interface {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.click {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    margin-left: 250px;
+}
+
+    .click:hover {
+        background-color: #1A1A40;
+    }
+
+.content-interface {
+    width: 400px;
+    height: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #1A1A40;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.button-light {
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .button-light:hover {
+        background-color: #3C2F58;
+        color: white;
+    }
+
+.button-dark {
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .button-dark:hover {
+        background-color: #3C2F58;
+        color: white;
+    }
+
+.system-container {
+    display: flex;
+    align-items: center;
+}
+
+.system-setting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background: #3C2F58;
+    color: white;
+}
+
+.label16-system {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.click-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 200px;
+    background-color: #000;
+}
+
+    .click-1:hover {
+        background-color: #1A1A40;
+        color: white;
+    }
+
+.content-system {
+    /* width: 400px;
+    height: 50px; */
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #1A1A40;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.button-upload {
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .button-upload:hover {
+        background-color: #3C2F58;
+        color: white;
+    }
+
+
+.log-container {
+    display: flex;
+    align-items: center;
+}
+
+.log-setting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background: #3C2F58;
+    color: white;
+}
+
+.label17-log {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.click-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    margin-left: 260px;
+}
+
+    .click-2:hover {
+        background-color: #1A1A40;
+        color: white;
+    }
+
+.content-log {
+    width: 400px;
+    height: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #1A1A40;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+.button-confirm {
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .button-confirm:hover {
+        background-color: #3C2F58;
+        color: white;
+    }
+
+.button-cancel {
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .button-cancel:hover {
+        background-color: #3C2F58;
+        color: white;
+    }

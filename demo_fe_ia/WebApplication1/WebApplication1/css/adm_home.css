@@ -1,0 +1,251 @@
+﻿.row-tong {
+    width: 100%;
+    height: 545px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.tieu-de {
+    font-weight: bold;
+    font-size: 20px;
+    color: yellow;
+    margin-left: 40%;
+}
+
+.number-of-oders {
+    position: relative;
+    width: 170px;
+    height: auto;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-left: 5%;
+    box-shadow: 0 3px 10px var(--shadow-color);
+}
+
+.text-1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--title-color);
+    padding-left: 7px;
+}
+
+.number-of-oders img {
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+
+.number-of-user {
+    position: relative;
+    width: 170px;
+    height: auto;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-left: 10%;
+    box-shadow: 0 3px 10px var(--shadow-color);
+}
+
+.text-2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--title-color);
+    padding-left: 7px;
+}
+
+.number-of-user img {
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.top-feature {
+    position: relative;
+    width: 410px;
+    height: auto;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-left: 10%;
+    box-shadow: 0 3px 10px var(--shadow-color);
+    /* background: white; */
+}
+
+.text-3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--title-color);
+    margin-left: 30%;
+}
+
+.top-feature img {
+    padding-top: 5px;
+    margin-left: 30px;
+}
+
+.container {
+    border-radius: 10px;
+    color: wheat;
+    width: 900px;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.id {
+    padding-left: 20px;
+}
+
+.username {
+    padding-left: 55px;
+}
+
+.email {
+    padding-left: 150px;
+}
+
+.gender {
+    padding-left: 130px;
+}
+
+.role {
+    padding-left: 100px;
+}
+
+.tabel-info {
+    width: 900px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #004040;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 3px 10px var(--shadow-color);
+}
+
+.id-khachHang {
+    padding: 20px;
+}
+
+.ten-dangNhap {
+    padding-left: 33px;
+}
+
+.Email {
+    padding-left: 75px;
+}
+
+.gioiTinh {
+    padding-left: 55px;
+}
+
+.Role {
+    padding-left: 90px;
+}
+
+.button-show {
+    width: 150px;
+    padding-left: 50px;
+}
+
+.show-more {
+    font-weight: bold;
+    background-color: #004040;
+    border: 3px solid var(--border-color);
+    border-radius: 0 5px 5px 0;
+    color: var(--title-color);
+}
+
+
+.detail-container {
+    /* position: relative; */
+    display: flex;
+    /* border: 1px solid #333; */
+    font-size: 16px;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-container {
+    display: flex;
+    color: #fff;
+    font-weight: bold;
+    /* border-bottom: 1px solid #fff; */
+    gap: 59px;
+}
+
+.noi-dung {
+    display: flex;
+    align-items: stretch;
+}
+
+.id-user {
+    margin-left: 7px;
+}
+
+.avatar-user {
+    margin-left: 55px;
+    border-radius: 50%;
+}
+
+.ten-user {
+    margin-left: 70px;
+}
+
+.diaChi-user {
+    margin-left: 70px;
+}
+
+.gender-user {
+    margin-left: 70px;
+}
+
+.age-user {
+    margin-left: 90px;
+}
+
+/* Popup - Mặc định ẩn */
+.popup {
+    display: none;
+    /* Ẩn popup */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Màu nền mờ */
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Nội dung của popup */
+.detail-container {
+    background-color: #3C2F58;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Nút đóng */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+    /* Nút đóng khi hover */
+    .close:hover,
+    .close:focus {
+        color: red;
+    }

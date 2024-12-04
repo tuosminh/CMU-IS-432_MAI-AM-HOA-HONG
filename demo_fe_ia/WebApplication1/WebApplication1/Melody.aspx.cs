@@ -41,7 +41,7 @@ namespace WebApplication1
                         conn.Open();
 
                         string query = "INSERT INTO newmusic (TENNHAC, TENTACGIA, ANHBAIDANG, FILEMP3, DATE) " +
-                                       "VALUES (@TENNHAC, @TENTACGIA, @ANHBAIDANG, @FILEMP3, @DATE)";
+                                       "VALUES (@TENNHAC, @TENTACGIA, @ANHBAIDANG, @FILEMP3, @DATE) ";
 
                         using (SqlCommand cmd = new SqlCommand(query, conn))
                         {
@@ -75,7 +75,8 @@ namespace WebApplication1
 
         private void LoadMusicData()
         {
-            string sql = "SELECT * FROM newmusic";
+
+            string sql = "SELECT * FROM newmusic ORDER BY Id DESC";
             ds_music.DataSource = kn.LayDuLieuMS(sql);
             ds_music.DataBind();
         }

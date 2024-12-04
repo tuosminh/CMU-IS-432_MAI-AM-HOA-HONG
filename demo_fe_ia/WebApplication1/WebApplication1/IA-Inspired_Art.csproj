@@ -1,6 +1,6 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.Net.Compilers.4.2.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.4.2.0\build\Microsoft.Net.Compilers.props')" />
   <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
-  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -50,6 +50,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\lib\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -69,23 +72,27 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="a.aspx" />
     <Content Include="Admin_Login.aspx" />
     <Content Include="Admin_OrderManage.aspx" />
     <Content Include="Admin_UserManage.aspx" />
+    <Content Include="Adm_Home.aspx" />
+    <Content Include="Adm_ReportManagement.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="css\adm_home.css" />
+    <Content Include="css\adm_setting.css" />
+    <Content Include="css\css_chatting.css" />
     <Content Include="css\css_exhibition.css" />
+    <Content Include="css\css_exhibition1.css" />
+    <Content Include="css\css_help.css" />
+    <Content Include="css\css_home1.css" />
+    <Content Include="css\css_melodyyy.css" />
     <Content Include="css\css_menu-Admin.css" />
     <Content Include="css\css_menuLogin.css" />
     <Content Include="css\css_notification.css" />
+    <Content Include="css\css_photo1.css" />
     <Content Include="css\css_photodetails.css" />
     <Content Include="css\css_search.css" />
     <Content Include="css\css_search02.css" />
@@ -119,8 +126,8 @@
     <Content Include="css\css_signUp.css" />
     <Content Include="css\css_shoppingcart.css" />
     <Content Include="css\css_orderdetail.css" />
+    <Content Include="css\report-adm.css" />
     <Content Include="css\css_userManage-Admin.css" />
-    <Content Include="demo.aspx" />
     <Content Include="ExhibitionCorner.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Help.aspx" />
@@ -192,19 +199,23 @@
     <Content Include="img_sanpham\15.jpg" />
     <Content Include="img_sanpham\16.jpg" />
     <Content Include="img_sanpham\17.jpg" />
+    <Content Include="img_topmusic\anhxoanen3.png" />
     <Content Include="img_topmusic\MUSIC.jpeg" />
     <Content Include="img_toppainting\LOVEBYTHELAKE.jpeg" />
     <Content Include="js\collection.js" />
     <Content Include="js\exhibition.js" />
+    <Content Include="js\js_adm_home.js" />
     <Content Include="js\js_login.js" />
     <Content Include="js\js_menuAdmin.js" />
     <Content Include="js\js_profile.js" />
+    <Content Include="js\js_report_adm.js" />
     <Content Include="js\js_userControlLogin.js" />
-    <Content Include="js\js_userManage-Admin.js" />
     <Content Include="Login.aspx" />
     <Content Include="Melody.aspx" />
     <Content Include="MelodyDetails.aspx" />
     <Content Include="Menulogin.ascx" />
+    <Content Include="mp3file\Kalimba.mp3" />
+    <Content Include="mp3file\mix_42s%28audio-joiner.com%29.mp3" />
     <Content Include="Notification.aspx" />
     <Content Include="OrderDetails.aspx" />
     <Content Include="PhotoDetails.aspx" />
@@ -227,6 +238,7 @@
     <Content Include="ShoppingCart.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="Signup_Business.aspx" />
+    <Content Include="test1.aspx" />
     <Content Include="Upload.aspx" />
     <Content Include="video-ex\video-1.mp4" />
     <Content Include="video-ex\video-2.mp4" />
@@ -234,16 +246,10 @@
     <Content Include="video-ex\video-4.mp4" />
     <Content Include="video-ex\video-5.mp4" />
     <Content Include="video-ex\video-6.mp4" />
+    <Content Include="videoMelody\anhtuan.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="a.aspx.cs">
-      <DependentUpon>a.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="a.aspx.designer.cs">
-      <DependentUpon>a.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Admin_Login.aspx.cs">
       <DependentUpon>Admin_Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -265,6 +271,20 @@
     <Compile Include="Admin_UserManage.aspx.designer.cs">
       <DependentUpon>Admin_UserManage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Adm_Home.aspx.cs">
+      <DependentUpon>Adm_Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adm_Home.aspx.designer.cs">
+      <DependentUpon>Adm_Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adm_ReportManagement.aspx.cs">
+      <DependentUpon>Adm_ReportManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adm_ReportManagement.aspx.designer.cs">
+      <DependentUpon>Adm_ReportManagement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Chatting.aspx.cs">
       <DependentUpon>Chatting.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -278,13 +298,6 @@
     </Compile>
     <Compile Include="Collection.aspx.designer.cs">
       <DependentUpon>Collection.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="demo.aspx.cs">
-      <DependentUpon>demo.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="demo.aspx.designer.cs">
-      <DependentUpon>demo.aspx</DependentUpon>
     </Compile>
     <Compile Include="ExhibitionCorner.aspx.cs">
       <DependentUpon>ExhibitionCorner.aspx</DependentUpon>
@@ -426,6 +439,13 @@
     <Compile Include="Signup_Business.aspx.designer.cs">
       <DependentUpon>Signup_Business.aspx</DependentUpon>
     </Compile>
+    <Compile Include="test1.aspx.cs">
+      <DependentUpon>test1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test1.aspx.designer.cs">
+      <DependentUpon>test1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Upload.aspx.cs">
       <DependentUpon>Upload.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -474,7 +494,6 @@
     <Folder Include="images\img-avatar\" />
     <Folder Include="images\img_melody\" />
     <Folder Include="images\img_photos\" />
-    <Folder Include="mp3file\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -505,11 +524,13 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
     <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
     <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.4.2.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.4.2.0\build\Microsoft.Net.Compilers.props'))" />
   </Target>
   <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

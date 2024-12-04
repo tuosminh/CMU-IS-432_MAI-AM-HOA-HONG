@@ -6,11 +6,11 @@
         <a href="Login.aspx" class="btnUCLogin">
             <i class="fa-solid fa-user"></i>
         </a>
-        <a href="demo.aspx" class="btnUCLogin">
+        <a href="Profile.aspx" class="btnUCLogin">
             <i class="fa-solid fa-briefcase"></i>
         </a>
-        <a href="Admin_Login.aspx" class="btnUCLogin">
-            <i class="fa-solid fa-users-gear"></i>
+        <a href="Home.aspx" class="btnUCLogin">
+            <i class="fa-solid fa-user-gear"></i>
         </a>
     </div>
 </div>

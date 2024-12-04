@@ -1,27 +1,40 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Data;
-using System.Linq;
-using System.Web;
+using System.Data.SqlClient;
 
 namespace WebApplication1
 {
     public class LopKetNoi
     {
-        SqlConnection cn = new SqlConnection();
+        // Biến kết nối SQL
+        private SqlConnection cn;
 
+        // Chuỗi kết nối
+        private readonly string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\git_MainV02\LY_NAM-SPM-\demo_fe_ia\WebApplication1\WebApplication1\App_Data\Database1.mdf;Integrated Security=True";
+
+        // Phương thức mở kết nối
         private void MoKetNoi()
         {
-            string SqlCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\TEAM_7\CMU-IS-432_MAI-AM-HOA-HONG\demo_fe_ia\WebApplication1\WebApplication1\App_Data\Database1.mdf;Integrated Security=True";
-            cn = new SqlConnection(SqlCon);
-
-            cn.Open();
+            if (cn == null)
+            {
+                cn = new SqlConnection(connectionString);
+            }
+            if (cn.State == ConnectionState.Closed)
+            {
+                cn.Open();
+            }
         }
+
+        // Phương thức đóng kết nối
         private void DongKetNoi()
         {
-            cn.Close();
+            if (cn != null && cn.State == ConnectionState.Open)
+            {
+                cn.Close();
+            }
         }
+
+        // Phương thức lấy dữ liệu dạng DataTable (không có tham số)
         public DataTable LayDuLieu(string sql)
         {
             DataTable dt = new DataTable();
@@ -31,16 +44,118 @@ namespace WebApplication1
                 SqlDataAdapter da = new SqlDataAdapter(sql, cn);
                 da.Fill(dt);
             }
-            catch
+            catch (Exception ex)
             {
-                dt = null;
+                throw new Exception("Error fetching data: " + ex.Message);
             }
             finally
             {
                 DongKetNoi();
             }
-
             return dt;
+        }
+
+        // Phương thức lấy dữ liệu dạng DataTable (có tham số)
+        public DataTable LayDuLieu(string sql, SqlParameter[] parameters)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                MoKetNoi();
+                using (SqlCommand cmd = new SqlCommand(sql, cn))
+                {
+                    cmd.Parameters.AddRange(parameters);
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    da.Fill(dt);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error fetching data with parameters: " + ex.Message);
+            }
+            finally
+            {
+                DongKetNoi();
+            }
+            return dt;
+        }
+
+        // Phương thức cập nhật dữ liệu (không có tham số)
+        public int CapNhatDuLieu(string sql)
+        {
+            int kq = 0;
+            try
+            {
+                MoKetNoi();
+                using (SqlCommand cmd = new SqlCommand(sql, cn))
+                {
+                    kq = cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error updating data: " + ex.Message);
+            }
+            finally
+            {
+                DongKetNoi();
+            }
+            return kq;
+        }
+
+        // Phương thức thực thi lệnh SQL (có tham số)
+        public int ThucThiLenh(string sql, SqlParameter[] parameters)
+        {
+            int rowsAffected = 0;
+            try
+            {
+                MoKetNoi();
+                using (SqlCommand cmd = new SqlCommand(sql, cn))
+                {
+                    cmd.Parameters.AddRange(parameters);
+                    rowsAffected = cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error executing command: " + ex.Message);
+            }
+            finally
+            {
+                DongKetNoi();
+            }
+            return rowsAffected;
+        }
+
+        // Phương thức lấy dữ liệu dạng SqlDataReader (có tham số)
+        public SqlDataReader LayDuLieuReader(string sql, SqlParameter[] parameters)
+        {
+            SqlDataReader reader;
+            try
+            {
+                MoKetNoi();
+                SqlCommand cmd = new SqlCommand(sql, cn);
+                cmd.Parameters.AddRange(parameters);
+                reader = cmd.ExecuteReader(CommandBehavior.CloseConnection); // Đảm bảo đóng kết nối khi reader bị dispose
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error fetching data reader: " + ex.Message);
+            }
+            return reader;
+        }
+
+        // Phương thức thực thi lệnh cảnh báo (chỉ là một alias của ThucThiLenh)
+        public void ThucThiLenhCanhBao(string sql, SqlParameter[] parameters)
+        {
+            try
+            {
+                ThucThiLenh(sql, parameters);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error executing warning command: " + ex.Message);
+            }
         }
 
         public DataTable LayDuLieuMS(string sql)
@@ -64,105 +179,5 @@ namespace WebApplication1
             }
             return dataTable;
         }
-
-
-        // Phương thức để lấy dữ liệu (SELECT) với tham số
-        public DataTable LayDuLieu(string sql, SqlParameter[] parameters)
-        {
-            DataTable dt = new DataTable();
-            try
-            {
-                MoKetNoi();
-                using (SqlCommand cmd = new SqlCommand(sql, cn))
-                {
-                    cmd.Parameters.AddRange(parameters); // Thêm các tham số vào câu lệnh SQL
-                    SqlDataAdapter da = new SqlDataAdapter(cmd);
-                    da.Fill(dt);
-                }
-            }
-            catch
-            {
-                dt = null;
-            }
-            finally
-            {
-                DongKetNoi();
-            }
-            return dt;
-        }
-        public int CapNhatDuLieu(string sql)
-        {
-            int kq = 0;
-            try
-            {
-                MoKetNoi();
-                using (SqlCommand cmd = new SqlCommand(sql, cn))
-                {
-
-                    kq = cmd.ExecuteNonQuery();
-                }
-            }
-            catch
-            {
-                kq = 0;
-            }
-            finally
-            {
-                DongKetNoi();
-            }
-
-            return kq;
-        }
-        // Phương thức để thực thi các lệnh SQL với tham số (INSERT, UPDATE, DELETE)
-        public int ThucThiLenh(string sql, SqlParameter[] parameters)
-        {
-            int rowsAffected = 0;  // Biến lưu số dòng bị ảnh hưởng
-            try
-            {
-                MoKetNoi();
-                using (SqlCommand cmd = new SqlCommand(sql, cn))
-                {
-                    // Thêm các tham số vào câu lệnh SQL
-                    cmd.Parameters.AddRange(parameters);
-                    rowsAffected = cmd.ExecuteNonQuery();  // Thực thi lệnh SQL và lấy số dòng bị ảnh hưởng
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Error executing SQL command: " + ex.Message);
-            }
-            finally
-            {
-                DongKetNoi();  // Đảm bảo đóng kết nối sau khi thực thi
-            }
-
-            return rowsAffected;  // Trả về số dòng bị ảnh hưởng
-        }
-
-        public SqlDataReader LayDuLieuReader(string sql, SqlParameter[] parameters)
-        {
-            SqlDataReader reader = null;
-            try
-            {
-                MoKetNoi(); // Mở kết nối
-                using (SqlCommand cmd = new SqlCommand(sql, cn))
-                {
-                    // Thêm tham số vào câu lệnh SQL
-                    cmd.Parameters.AddRange(parameters);
-
-                    // Thực thi câu lệnh SQL và lấy SqlDataReader
-                    reader = cmd.ExecuteReader();
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Error executing SQL command: " + ex.Message);
-            }
-
-            return reader; // Trả về SqlDataReader
-        }
-
-
-
     }
 }

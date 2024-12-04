@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Admin_Login.aspx.cs" Inherits="WebApplication1.Admin_Login" %>
 
-    <%@ Register Src="~/Menulogin.ascx" TagPrefix="uc1" TagName="Menulogin" %>
+<%@ Register Src="~/Menulogin.ascx" TagPrefix="uc1" TagName="Menulogin" %>
 
 
         <!DOCTYPE html>
@@ -56,7 +56,7 @@
                             <asp:Button ID="Buttonlogin" runat="server" Text="Login" OnClick="Buttonlogin_Click"
                                 CssClass="btn" />
                         </div>
-                        <!-- ảnh nền -->
+                        <!-- ảnh nền --><%--/-strong/-heart:>:o:-((:-h --%>
                         <div class="imgLogin">
                             <img src="images/imgLoginPage.png" />
                         </div>

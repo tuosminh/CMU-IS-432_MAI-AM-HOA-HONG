@@ -3,7 +3,7 @@
 
     <%@ Register Src="~/MenuLogin.ascx" TagPrefix="uc1" TagName="MenuLogin" %>
         <asp:Content ID="Home" ContentPlaceHolderID="content" runat="server" CssClass="w-100">
-            <link href="css/css_home.css" rel="stylesheet" />
+            <link href="css/css_home1.css" rel="stylesheet" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 

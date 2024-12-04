@@ -1,7 +1,14 @@
-﻿%@ Page Title="" Language="C#" MasterPageFile="~/Menu.Master" AutoEventWireup="true" CodeBehind="Photos.aspx.cs"
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Menu.Master" AutoEventWireup="true" CodeBehind="Photos.aspx.cs"
     Inherits="WebApplication1.Photos" %>
     <asp:Content ID="Photos" ContentPlaceHolderID="content" runat="server">
-            <link href="css/css_photos.css" rel="stylesheet" />
+        <link href="css/css_photo1.css" rel="stylesheet" />
+
+
+
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+<h1 class="inspired_art">Inspired Art</h1>
+
     <div class="wrapper">
         <div class="quangCao mt-4">
             <asp:DataList ID="DSQUANGCAO" runat="server" CssClass="quangCaoList">

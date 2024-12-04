@@ -1,0 +1,432 @@
+﻿body {
+    background-color: #F7F5FD;
+}
+
+/* .chatRow {
+    width: 100%;
+} */
+
+.card {
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+    .card .card-header {
+        width: 100%;
+        height: 20%;
+        background-color: transparent;
+        border: none;
+    }
+
+        .card .card-header .ava-user-chat {
+            width: 85%;
+            border: 2px solid #6305D3;
+            border-radius: 10px 0 0 0;
+            padding: 10px 0;
+            background-color: #fff;
+        }
+
+            .card .card-header .ava-user-chat .acc-ava-user-chat {
+                padding: 0 30px;
+                border-right: 2px solid #6305D3;
+            }
+
+        .card .card-header .acc-ava-user-chat .header-ava {
+            position: relative;
+        }
+
+        .card .card-header .aroundAvatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+            /* padding-right: 20px;*/
+            border: 4px solid #6305D3;
+        }
+
+        .card .card-header .ava-user {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+            /* padding-right: 20px;*/
+            border: 4px solid #6305D3;
+        }
+
+.chatRow .card .card-header .ava-user .text-Avatext span {
+    font-weight: 900;
+    font-size: 55px;
+    color: #6305D3;
+}
+
+.card .card-header .ava-user .navi-btn button {
+    border: none;
+    background-color: transparent;
+}
+
+    .card .card-header .ava-user .navi-btn button i {
+        font-size: 21px;
+    }
+
+.card .card-header .ava-user-chat .icon-plus {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #6305D3;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-content: center;
+    padding: 15px;
+    border: 1px solid #fff;
+}
+
+    .card .card-header .ava-user-chat .icon-plus i {
+        color: #fff;
+        font-weight: 500;
+    }
+
+.card .card-header img {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.card .card-header .ava-user-chat .other-ava-user-chat {
+    padding-left: 30px;
+}
+
+    .card .card-header .ava-user-chat .other-ava-user-chat .other-ava-items {
+        margin-right: 30px;
+    }
+
+
+.card .card-header .ava-user {
+    width: 20%;
+    border: 2px solid #6305D3;
+    border-radius: 0 10px 0 0;
+    padding: 5px 20px;
+    background-color: #fff;
+    height: 100%;
+}
+
+.card .card-body {
+    width: 100%;
+}
+
+    .card .card-body .user-chat {
+        border: 2px solid #6305D3;
+        width: 30%;
+    }
+
+    .card .card-body .content-chat {
+        border: 2px solid #6305D3;
+        width: 70%;
+        overflow: hidden;
+    }
+
+.content-chat .card {
+    height: 510px;
+}
+
+.card .card-body .content-chat .card-header {
+    background-color: #E3D2F7;
+    height: 16%;
+    box-shadow: 0 3px 10px #6305D3;
+    z-index: 1;
+}
+
+.content-chat .img-user-chat {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* padding-right: 20px;*/
+    border: 4px solid #6305D3;
+}
+
+    .content-chat .img-user-chat img {
+        width: 100%;
+        height: 100%;
+    }
+
+.content-chat .card .name-user-chat .name-chat {
+    position: relative;
+}
+
+.content-chat .card .name-user-chat p {
+    font-size: 14px;
+}
+
+.content-chat .card .name-user-chat span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #80ED99;
+    position: absolute;
+    bottom: 3px;
+    right: -10px;
+}
+
+.content-chat .card .navi-user-chat button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+    .content-chat .card .navi-user-chat button i {
+        display: flex;
+        align-items: center;
+        font-size: 21px;
+    }
+
+.content-chat .card .card-body {
+    height: 72%;
+    width: 100%;
+    z-index: 0;
+}
+
+.chatRow .card-body .user-chat {
+    height: 515px;
+    /* width: 100%; */
+}
+
+.content-chat .card .card-body .user-chat .cnt-user-chat {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
+
+.chatRow .card-body .user-chat .sur-user-chat {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.chatRow .card .card-body .user-chat .aroundAvatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #6305D3;
+}
+
+    .chatRow .card .card-body .user-chat .aroundAvatar img {
+        height: 100%;
+        width: 100%;
+    }
+
+.chatRow .card .card-body .user-chat .user-chat-items {
+    height: auto;
+    width: 100%;
+    cursor: pointer;
+}
+
+    .chatRow .card .card-body .user-chat .user-chat-items .cnt-user-chat-items {
+        margin: 4px 15px 0;
+        border-bottom: 1px solid #6305D3;
+        padding: 10px 0;
+    }
+
+.chatRow .card .card-body .user-chat .inf-user-chat-items h5 {
+    font-weight: 700;
+}
+
+.chatRow .card .card-body .user-chat .inf-user-chat-items p {
+    margin: 0;
+}
+
+.chatRow .card .card-body .user-chat .dot-user-chat button {
+    background-color: transparent;
+    border: none;
+}
+
+    .chatRow .card .card-body .user-chat .dot-user-chat button i {
+        font-size: 24px;
+        color: #6305D3;
+    }
+
+
+
+
+
+
+.content-chat .card .card-body .chat-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0 10px;
+}
+
+    .content-chat .card .card-body .chat-container .demo-chat {
+        position: relative;
+    }
+
+    .content-chat .card .card-body .chat-container .main-demo-chat {
+        margin-left: 70px;
+    }
+
+    .content-chat .card .card-body .chat-container .img-user-chat {
+        width: 50px;
+        height: 50px;
+        border: 3px solid #6305D3;
+        position: absolute;
+        top: 0;
+    }
+
+.card-body .chat-container .chat-list {
+    width: 100%;
+}
+
+.card-body .chat-container .main-chat {
+    align-items: flex-end;
+    width: 100%;
+}
+
+.card-body .chat-container .chat-time {
+    font-size: 14px;
+}
+
+/* .card-body .chat-container .card {
+    display: inline-flexbox;
+    height: 50px;
+    background-color: #E3D2F7;
+} */
+.card-body .chat-container .chat-message {
+    display: inline-block;
+    /* Đảm bảo nội dung vừa với kích thước */
+    padding: 5px 20px;
+    border-radius: 7px;
+    background-color: #E3D2F7;
+    color: #000;
+    max-width: 70%;
+    word-wrap: break-word;
+    /* Bẻ từ nếu nội dung quá dài */
+    font-size: 16px;
+    /* margin: 0 0 0 30px; */
+    text-align: left;
+}
+
+.card-body .chat-container .anh {
+    padding: 10px 0;
+}
+
+.card-body .chat-container .chat-image {
+    /* padding: 10px 0; */
+    max-width: 500px;
+    max-height: 250px;
+    /* display: flex; */
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.content-chat .card .card-footer {
+    height: 12%;
+    width: 100%;
+    background-color: #E3D2F7;
+    box-shadow: 0 -2px 10px #6305D3;
+    z-index: 1;
+}
+
+    .content-chat .card .card-footer .chat-input-container {
+        height: 100%;
+        width: 100%;
+    }
+
+        .content-chat .card .card-footer .chat-input-container .file-chat {
+            height: 90%;
+            width: 15%;
+        }
+
+            .content-chat .card .card-footer .chat-input-container .file-chat .file-chat-items {
+                height: 100%;
+                width: 50%;
+            }
+
+    .content-chat .card .card-footer .file-upload {
+        display: none;
+        /* Ẩn input gốc */
+    }
+
+    .content-chat .card .card-footer .upload-container {
+        position: relative;
+    }
+
+    .content-chat .card .card-footer .upload-btn {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        padding: 5px 20px;
+        background-color: transparent;
+        color: #6305D3;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 21px;
+    }
+
+        .content-chat .card .card-footer .upload-btn:hover {
+            background: linear-gradient(to bottom, #6305D3, #000);
+            color: #fff;
+        }
+
+    .content-chat .card .card-footer .chat {
+        width: 85%;
+        height: 90%;
+    }
+
+        .content-chat .card .card-footer .chat .chat-input {
+            width: 90%;
+            height: 100%;
+            border: 2px solid #6305D3;
+            border-right: none;
+            border-radius: 5px 0 0 5px;
+        }
+
+            .content-chat .card .card-footer .chat .chat-input:focus {
+                box-shadow: 0 0 8px #6305D3;
+            }
+
+        .content-chat .card .card-footer .chat .btn-send-chat {
+            width: 10%;
+            position: relative;
+            height: 100%;
+        }
+
+    .content-chat .card .card-footer .btn-send {
+        display: none;
+    }
+
+    .content-chat .card .card-footer .send-btn {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        padding: 0 20px;
+        background-color: #6305D3;
+        color: #fff;
+        border: 2px solid #6305D3;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+        .content-chat .card .card-footer .send-btn:hover {
+            color: #fff;
+            background: linear-gradient(to bottom, #6305D3, #000);
+        }

@@ -1,0 +1,431 @@
+﻿
+/* Container bao quanh cả card1 và card2 */
+.containerheader {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Khoảng cách giữa card1 và card2 */
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+/* Phong cách cho card1 */
+.card1 {
+    flex: 1; /* Card1 chiếm ít không gian hơn */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(153, 102, 255, 0.2); /* Box shadow màu tím nhạt */
+    gap: 15px; /* Khoảng cách giữa các phần tử trong card1 */
+}
+
+    /* Form group trong card1 */
+    .card1 .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        flex: 1 1 200px; /* Giới hạn chiều rộng tối thiểu */
+        min-width: 200px;
+        margin-right: 10px;
+    }
+
+/* Phong cách cho tiêu đề upload */
+.uploadtitl {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    flex-basis: 100%;
+    text-align: center;
+    color: #9966FF;
+}
+
+/* Nút upload */
+.upload-btn {
+    background-color: #9966FF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+    .upload-btn:hover {
+        background-color: #7a4fdd;
+    }
+
+/* Phong cách cho card2 chứa video quảng cáo */
+.card2 {
+    flex: 2; /* Card2 chiếm nhiều không gian hơn */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(153, 102, 255, 0.2); /* Box shadow màu tím nhạt */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Video hoặc nội dung quảng cáo trong card2 */
+.card2 {
+    width: 100%;
+    max-width: 600px; /* Giới hạn chiều rộng tối đa cho phần video */
+    margin: 20px auto; /* Căn giữa phần video */
+    border-radius: 15px; /* Bo tròn toàn bộ card */
+    overflow: hidden; /* Đảm bảo video không ra ngoài khung */
+    background: linear-gradient(135deg, rgba(153, 102, 255, 0.8), rgba(255, 105, 180, 0.6)); /* Gradient nền nhẹ */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Bóng đổ đậm để làm nổi bật */
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng di chuyển nhẹ khi hover */
+}
+
+    .card2:hover {
+        transform: scale(1.05); /* Phóng to một chút khi hover */
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); /* Tăng bóng đổ khi hover */
+    }
+
+    .card2 video {
+        width: 100%; /* Đảm bảo video luôn chiếm hết chiều rộng của card */
+        height: auto; /* Giữ tỷ lệ khung hình video */
+        border-radius: 10px; /* Bo tròn các góc của video */
+        box-shadow: 0 4px 15px rgba(153, 102, 255, 0.3); /* Bóng đổ nhẹ cho video */
+        transition: transform 0.3s ease; /* Hiệu ứng chuyển động khi hover */
+    }
+
+        .card2 video:hover {
+            transform: scale(1.05); /* Phóng to video khi hover */
+        }
+
+
+/* Áp dụng cho container tự động tạo bởi ASP.NET */
+#content_ds_music {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các thẻ tự động xuống dòng */
+    gap: 20px; /* Khoảng cách giữa các thẻ */
+    margin-left: 10px;
+    justify-content: flex-start; /* Căn thẻ từ trái sang phải */
+}
+
+    /* Các thẻ con bên trong */
+    #content_ds_music .music-card {
+        box-sizing: border-box; /* Đảm bảo padding và border không ảnh hưởng đến kích thước thẻ */
+        margin-bottom: 20px; /* Khoảng cách phía dưới giữa các hàng */
+    }
+
+
+/* SHOW MUSIC */
+
+
+
+
+/*Music recomment
+*/
+
+.musicrecommendtion {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép xuống dòng khi không đủ không gian */
+    justify-content: center; /* Canh giữa các card */
+    gap: 20px; /* Khoảng cách giữa các card */
+    margin-right: 35px;
+}
+
+.music-card {
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    width: 200px; /* Chiều rộng cố định cho mỗi card */
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .music-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .music-card img {
+        width: 100%;
+        height: 150px; /* Kích thước ảnh */
+        object-fit: cover;
+        border-radius: 12px;
+        margin-bottom: 10px;
+    }
+
+    .music-card .title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 5px;
+        text-transform: capitalize;
+    }
+
+    .music-card .author {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 5px;
+        font-style: italic;
+    }
+
+    .music-card .date {
+        font-size: 12px;
+        color: #999;
+        margin-bottom: 10px;
+    }
+
+    .music-card audio {
+        width: 100%; /* Đầy đủ chiều rộng của card */
+        height: 35px;
+        border-radius: 5px;
+        margin-top: 10px;
+        background: #f0f0f0;
+    }
+
+.showmusic {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.music-card {
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    width: 300px; /* Chiều rộng thẻ */
+    padding: 25px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .music-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .music-card img {
+        width: 100%;
+        height: 200px; /* Kích thước ảnh */
+        object-fit: cover;
+        border-radius: 12px;
+        margin-bottom: 15px;
+    }
+
+    .music-card .title {
+        font-size: 20px; /* Tiêu đề lớn hơn */
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+    }
+
+    .music-card .author {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 8px;
+        font-style: italic;
+    }
+
+    .music-card .date {
+        font-size: 14px;
+        color: #999;
+        margin-bottom: 15px;
+    }
+
+    .music-card audio {
+        width: 100%; /* Thanh nhạc dài theo thẻ */
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 15px;
+        background: #f0f0f0;
+    }
+
+        .music-card audio::-webkit-media-controls-panel {
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+
+        .music-card audio::-webkit-media-controls-play-button {
+            background-color: #007bff;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+        }
+
+        .music-card audio::-webkit-media-controls-timeline {
+            background-color: #ddd;
+            height: 5px; /* Tăng độ dày thanh kéo */
+        }
+
+        .music-card audio::-webkit-media-controls-volume-slider {
+            background-color: #007bff;
+        }
+
+
+
+.toprcm {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container_dianhac {
+    position: relative; /* Thêm position relative */
+    display: flex;
+    align-items: center;
+    border-top: 2px solid purple;
+    border-right: 2px solid purple;
+    border-bottom: 2px solid purple;
+    padding: 10px;
+    border-radius: 20px;
+    width: 1500px;
+    max-width: 800px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+    height: 70px;
+}
+
+
+.img_dianhac {
+    margin-left: -70px; /* Dịch hình ảnh sang trái để che phần đường viền */
+}
+
+    .img_dianhac img {
+        width: 150px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+.song_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+
+    .song_info .title {
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0;
+        width: 150px;
+    }
+
+    .song_info .artist {
+        font-size: 14px;
+        color: gray;
+        margin: 0;
+    }
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px; /* Giới hạn chiều rộng nút điều khiển */
+}
+
+    .controls button {
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 30px; /* Kích thước nút */
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+.pauseBtn {
+    display: none; /* Ẩn nút Pause mặc định */
+}
+/* Sửa lại cách bố trí khi không có lớp "hidden" */
+.song {
+    display: flex;
+    flex-direction: column; /* Hiển thị theo chiều dọc */
+    margin-bottom: 10px;
+}
+
+/* Khi có lớp "hidden", sẽ giữ các bài hát ẩn */
+.hidden {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Thêm phần này vào CSS của bạn */
+.song.hidden {
+    max-height: 0; /* Chiều cao ban đầu là 0 */
+    overflow: hidden; /* Ẩn nội dung vượt quá */
+    transition: max-height 0.5s ease-out; /* Thêm hiệu ứng chuyển đổi */
+}
+
+.song {
+    max-height: 500px; /* Đặt chiều cao tối đa đủ lớn khi phần tử được hiển thị */
+    transition: max-height 0.5s ease-in; /* Thêm hiệu ứng chuyển đổi */
+}
+
+
+.show-all-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hidden {
+    visibility: hidden; /* Ẩn phần tử nhưng vẫn giữ chỗ trong bố cục */
+    height: 0; /* Ẩn chiều cao để không làm giãn trang */
+    margin: 0; /* Đặt lại margin để không có khoảng cách */
+    padding: 0; /* Đặt lại padding để không có khoảng trống */
+}
+
+
+/* Thêm thanh điều khiển nhạc */
+.progress-container {
+    width: 100%;
+    height: 8px; /* Tăng chiều cao thanh tiến trình */
+    background-color: #ddd;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%; /* Mặc định là không có tiến trình */
+    background-color: purple;
+    border-radius: 5px;
+}
+
+.volume-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.volume-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+
+

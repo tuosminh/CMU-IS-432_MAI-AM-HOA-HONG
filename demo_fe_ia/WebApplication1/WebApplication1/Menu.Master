@@ -16,6 +16,31 @@
 
   </head>
   <body>
+     <style>
+         .logout-btn {
+    background-color: #007bff; /* Màu nền */
+    border: none; /* Bỏ viền */
+    padding: 10px 20px; /* Khoảng cách trong */
+    text-align: center; /* Canh giữa văn bản */
+    cursor: pointer; /* Con trỏ chuột hiển thị khi hover */
+    font-size: 16px; /* Cỡ chữ */
+    color: white; /* Màu chữ */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển đổi */
+}
+
+.logout-btn:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+}
+
+.logout-link {
+    text-decoration: none; /* Bỏ gạch chân */
+    color: inherit; /* Kế thừa màu từ nút */
+    display: block; /* Để liên kết bao phủ toàn bộ nút */
+    width: 100%; /* Chiếm toàn bộ chiều rộng nút */
+    height: 100%; /* Chiếm toàn bộ chiều cao nút */
+}
+
+     </style>
     <header class="page-header">
         <nav class="fixed-top navbar navbar-expand-lg bg-body-white">
             <div class="container-fluid">
@@ -110,7 +135,10 @@
                                     </div>
                                     <div class="card-footer p-0 mt-3">
                                         <button class="bt text-nowrap rounded-3 w-100 p-1 mb-2"><b>Upgrade to enterprise</b></button>
-                                        <button class="bt w-100 rounded-3 w-100 p-1"><b>Log out</b></button>
+                                       <button class="bt w-100 rounded-3 p-1 logout-btn">
+                                            <a href="Login.aspx" class="logout-link">Log Out</a>
+                                        </button>
+
                                     </div>
                                 </div>
                             </div>

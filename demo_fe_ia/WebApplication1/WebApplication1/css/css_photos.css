@@ -121,3 +121,75 @@
     font-size: 14px;
     color: #A550E6;
 }
+
+/* Thêm font chữ */
+body {
+    margin-top: 50px;
+}
+
+.inspired_art {
+    font-size: 80px; /* Kích thước chữ lớn */
+    font-family: 'Playfair Display', serif; /* Font chữ thanh lịch và rõ ràng */
+    text-transform: uppercase; /* Chuyển chữ thành in hoa */
+    background: linear-gradient(90deg, #6a0dad, #b19cd9, #dda0dd, #ff99ff);
+    background-size: 300%;
+    -webkit-background-clip: text; /* Áp dụng gradient cho chữ */
+    -webkit-text-fill-color: transparent; /* Làm chữ trong suốt */
+    text-align: center;
+    position: relative;
+    animation: gradient-move 5s infinite, bounce-effect 2s infinite ease-in-out;
+}
+
+/* Hiệu ứng gradient chuyển động */
+@keyframes gradient-move {
+    0% {
+        background-position: 0%;
+    }
+
+    50% {
+        background-position: 100%;
+    }
+
+    100% {
+        background-position: 0%;
+    }
+}
+
+/* Hiệu ứng nảy nhẹ */
+@keyframes bounce-effect {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Hiệu ứng phát sáng */
+.inspired_art:before {
+    content: ""; /* Tạo lớp phủ phát sáng */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #dda0dd, 0 0 30px #b19cd9, 0 0 40px #6a0dad;
+    animation: glow-effect 2s infinite alternate;
+}
+
+@keyframes glow-effect {
+    from {
+        box-shadow: 0 0 10px #dda0dd, 0 0 20px #b19cd9, 0 0 30px #6a0dad;
+    }
+
+    to {
+        box-shadow: 0 0 20px #dda0dd, 0 0 40px #b19cd9, 0 0 50px #6a0dad;
+    }
+}
+
+/* Hiệu ứng đổ bóng nhiều lớp */
+.inspired_art {
+    text-shadow: 2px 2px 5px #6a0dad, 4px 4px 10px #b19cd9, 6px 6px 15px #dda0dd;
+}

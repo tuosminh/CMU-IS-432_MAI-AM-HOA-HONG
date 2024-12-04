@@ -73,7 +73,7 @@
                             </div>
                             <div class="card-body">
                                 <!-- label giới thiệu -->
-                                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="Label1" runat="server" Text=" Pickleball = Gay"></asp:Label>
                             </div>
                             <div class="card-footer d-flex justify-content-center">
                                 <!-- button chỉnh sửa phần giới thiệu -->

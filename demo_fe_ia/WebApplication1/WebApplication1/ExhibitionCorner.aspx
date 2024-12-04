@@ -1,9 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Menu.Master" AutoEventWireup="true" CodeBehind="ExhibitionCorner.aspx.cs" Inherits="WebApplication1.ExhibitionCorner" %>
 <asp:Content ID="Exhibition_Corner" ContentPlaceHolderID="content" runat="server">
-    <link href="css/css_exhibition.css" rel="stylesheet" />
+    <link href="css/css_exhibition1.css" rel="stylesheet" />
 
 
  <div class="wrapper">
+     
      <div class="button-container">
          <asp:Button ID="Button1" runat="server" Text="Livestream" CssClass="button-1" />
          <asp:Button ID="Button2" runat="server" Text="Art Buy" CssClass="button-1"
@@ -12,7 +13,7 @@
 
      <br>
      <!-- phần livestream -->
-     <div id="section1">
+     <div id="section1" style=" margin-left: 200px;">
          <div class="video-container">
              <video src="video-ex/video-1.mp4" autoplay muted loop width="300px"></video>
          </div>
@@ -93,7 +94,7 @@
 
 
      <!-- phần Art buy -->
-     <div id="section2" style="display: none;">
+     <div id="section2" style="display: none; margin-left: 200px;">
 
          <div class="info-container">
              <asp:Label ID="Label5" runat="server" Text="Feature Top Music " CssClass="label-2"></asp:Label>
