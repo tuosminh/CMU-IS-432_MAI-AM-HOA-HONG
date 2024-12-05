@@ -440,3 +440,8 @@ F:\git_MainV02\LY_NAM-SPM-\demo_fe_ia\WebApplication1\WebApplication1\bin\Entity
 F:\git_MainV02\LY_NAM-SPM-\demo_fe_ia\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.xml
 F:\git_MainV02\LY_NAM-SPM-\demo_fe_ia\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 F:\git_MainV02\LY_NAM-SPM-\demo_fe_ia\WebApplication1\WebApplication1\obj\Debug\IA-Inspi.58DD630E.Up2Date
+C:\Users\ACER\OneDrive\Documents\GitHub\CMU-IS-432_MAI-AM-HOA-HONG\demo_fe_ia\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\ACER\OneDrive\Documents\GitHub\CMU-IS-432_MAI-AM-HOA-HONG\demo_fe_ia\WebApplication1\WebApplication1\bin\roslyn\System.Buffers.dll
+C:\Users\ACER\OneDrive\Documents\GitHub\CMU-IS-432_MAI-AM-HOA-HONG\demo_fe_ia\WebApplication1\WebApplication1\bin\roslyn\System.Memory.dll
+C:\Users\ACER\OneDrive\Documents\GitHub\CMU-IS-432_MAI-AM-HOA-HONG\demo_fe_ia\WebApplication1\WebApplication1\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\ACER\OneDrive\Documents\GitHub\CMU-IS-432_MAI-AM-HOA-HONG\demo_fe_ia\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll

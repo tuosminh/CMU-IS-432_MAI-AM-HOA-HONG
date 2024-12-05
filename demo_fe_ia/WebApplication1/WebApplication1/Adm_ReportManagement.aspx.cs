@@ -23,30 +23,28 @@ namespace WebApplication1
         protected void Button1_Click1(object sender, EventArgs e)
         {
             // SQL để chèn dữ liệu
-            string sql1 = "INSERT INTO NOTIFICATION (CHITIETTHONGBAO) VALUES (@CHITIETTHONGBAO)";
+            string sql1 = "INSERT INTO NOTIFICATION (CHITIETTHONGBAO, TIEUDETHONGBAO, THOIGIANGUI) VALUES (@CHITIETTHONGBAO, @TIEUDETHONGBAO, @THOIGIANGUI)";
 
             // Tạo tham số SQL để tránh lỗi SQL Injection
             SqlParameter[] parameters = {
-        new SqlParameter("@CHITIETTHONGBAO", "CANH BAO")
-              };
+        new SqlParameter("@CHITIETTHONGBAO", "CANH BAO"),
+        new SqlParameter("@TIEUDETHONGBAO", "CẢNH BÁO NGƯỜI DÙNG"),
+        new SqlParameter("@THOIGIANGUI", DateTime.Now)
+    };
 
             // Gọi phương thức ThucThiLenh để thực thi câu lệnh
             try
             {
-                // Kiểm tra nếu người dùng nhấn "OK" (trả về true từ JavaScript)
-                if (Request.Form["__EVENTTARGET"] == "Button1")
-                {
-                    int rowsAffected = kn.ThucThiLenh(sql1, parameters);
+                int rowsAffected = kn.ThucThiLenh(sql1, parameters);
 
-                    // Kiểm tra số dòng bị ảnh hưởng
-                    if (rowsAffected > 0)
-                    {
-                        Response.Write("Thông báo đã được chèn thành công!");
-                    }
-                    else
-                    {
-                        Response.Write("Không có thay đổi nào được thực hiện.");
-                    }
+                // Kiểm tra số dòng bị ảnh hưởng
+                if (rowsAffected > 0)
+                {
+                    //Response.Write("Thông báo đã được chèn thành công!");
+                }
+                else
+                {
+                   // Response.Write("Không có thay đổi nào được thực hiện.");
                 }
             }
             catch (Exception ex)

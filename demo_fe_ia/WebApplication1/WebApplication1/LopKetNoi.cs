@@ -10,7 +10,7 @@ namespace WebApplication1
         private SqlConnection cn;
 
         // Chuỗi kết nối
-        private readonly string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\git_MainV02\LY_NAM-SPM-\demo_fe_ia\WebApplication1\WebApplication1\App_Data\Database1.mdf;Integrated Security=True";
+        private readonly string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ACER\OneDrive\Documents\GitHub\CMU-IS-432_MAI-AM-HOA-HONG\demo_fe_ia\WebApplication1\WebApplication1\App_Data\Database1.mdf;Integrated Security=True";
 
         // Phương thức mở kết nối
         private void MoKetNoi()
