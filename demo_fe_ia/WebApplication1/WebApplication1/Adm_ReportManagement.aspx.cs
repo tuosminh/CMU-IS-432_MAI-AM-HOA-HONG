@@ -27,7 +27,7 @@ namespace WebApplication1
 
             // Tạo tham số SQL để tránh lỗi SQL Injection
             SqlParameter[] parameters = {
-        new SqlParameter("@CHITIETTHONGBAO", "CANH BAO"),
+        new SqlParameter("@CHITIETTHONGBAO", "Cảnh báo người dùng vì đã có những hoạt động không tuân theo chính sách!!!"),
         new SqlParameter("@TIEUDETHONGBAO", "CẢNH BÁO NGƯỜI DÙNG"),
         new SqlParameter("@THOIGIANGUI", DateTime.Now)
     };

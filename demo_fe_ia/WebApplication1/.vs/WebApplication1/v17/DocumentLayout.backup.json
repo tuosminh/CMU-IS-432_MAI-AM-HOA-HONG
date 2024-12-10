@@ -1,164 +1,168 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|f:\\git_mainv02\\ly_nam-spm-\\demo_fe_ia\\webapplication1\\webapplication1\\setting.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\adm_reportmanagement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\adm_reportmanagement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\acer\\onedrive\\documents\\github\\cmu-is-432_mai-am-hoa-hong\\demo_fe_ia\\webapplication1\\webapplication1\\adm_reportmanagement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\adm_reportmanagement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\acer\\onedrive\\documents\\github\\cmu-is-432_mai-am-hoa-hong\\demo_fe_ia\\webapplication1\\webapplication1\\lopketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\lopketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\setting.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\setting.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|f:\\git_mainv02\\ly_nam-spm-\\demo_fe_ia\\webapplication1\\webapplication1\\melody.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\melody.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\melody.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.KHACHHANG.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\lopketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\lopketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\melody.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\melody.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\melody.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\menu.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\menu.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\menu.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\profile.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\profile.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\profile.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\upload.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\upload.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\upload.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\upload.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\upload.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\upload.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\adm_reportmanagement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\adm_reportmanagement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\adm_home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\adm_home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\adm_home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\melodydetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\melodydetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\melodydetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\menulogin.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\menulogin.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\menulogin.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\photos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\photos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\photos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\shoppingcart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\shoppingcart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\shoppingcart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\test1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\test1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\test1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\adm_home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\adm_home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\adm_home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_menu-admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_menu-admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_menu-admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\adm_home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\adm_home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\adm_home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\js\\js_menuadmin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\js\\js_menuadmin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\js\\js_menuadmin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\menuadmin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\menuadmin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\menuadmin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_photo1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_photo1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_photo1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_photos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_photos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_photos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\collection.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\collection.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\collection.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\exhibitioncorner.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\exhibitioncorner.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\exhibitioncorner.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_exhibition1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_exhibition1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_exhibition1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_exhibition.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_exhibition.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_exhibition.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_melodyyy.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_melodyyy.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_melodyyy.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_collection.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_collection.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_collection.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\help.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\help.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\help.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_help.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_help.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_help.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_home1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_home1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_home1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\webapplication1\\photos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\photos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\photos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -168,8 +172,7 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.BAIDANGUP.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\WebForm1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\WebForm1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\WebForm1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -179,57 +182,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 145,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Setting.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Setting.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\Setting.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Setting.aspx",
-              "RelativeToolTip": "WebApplication1\\Setting.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-04T14:40:13.894Z",
+              "DocumentIndex": 1,
+              "Title": "Adm_ReportManagement.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_ReportManagement.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Adm_ReportManagement.aspx.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_ReportManagement.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\Adm_ReportManagement.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA8wDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:54:27.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "dbo.KHACHHANG [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.KHACHHANG.sql",
-              "ToolTip": "dbo.KHACHHANG [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-04T14:17:42.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "LopKetNoi.cs",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\LopKetNoi.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\LopKetNoi.cs",
               "RelativeDocumentMoniker": "WebApplication1\\LopKetNoi.cs",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\LopKetNoi.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\LopKetNoi.cs",
               "RelativeToolTip": "WebApplication1\\LopKetNoi.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwv7QAAAAJAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAGAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T14:14:25.368Z"
+              "WhenOpened": "2024-12-04T14:14:25.368Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Profile.aspx.designer.cs",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx.designer.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Profile.aspx.designer.cs",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx.designer.cs",
               "RelativeToolTip": "WebApplication1\\Profile.aspx.designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -237,11 +232,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "Adm_ReportManagement.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_ReportManagement.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Adm_ReportManagement.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_ReportManagement.aspx",
+              "RelativeToolTip": "WebApplication1\\Adm_ReportManagement.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-04T05:16:20.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.KHACHHANG.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.KHACHHANG.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.KHACHHANG.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-04T14:17:42.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Setting.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Setting.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Setting.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Setting.aspx",
+              "RelativeToolTip": "WebApplication1\\Setting.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-04T14:40:13.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Profile.aspx.cs",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Profile.aspx.cs",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx.cs",
               "RelativeToolTip": "WebApplication1\\Profile.aspx.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAAYwBYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -249,37 +278,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Menu.Master",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menu.Master",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menu.Master",
               "RelativeDocumentMoniker": "WebApplication1\\Menu.Master",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menu.Master",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menu.Master",
               "RelativeToolTip": "WebApplication1\\Menu.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-27T09:53:12.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Melody.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Melody.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\Melody.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Melody.aspx",
-              "RelativeToolTip": "WebApplication1\\Melody.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-17T15:41:43.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T09:53:12.547Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Melody.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Melody.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Melody.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Melody.aspx",
+              "RelativeToolTip": "WebApplication1\\Melody.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-17T15:41:43.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Home.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Home.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Home.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Home.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Home.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Home.aspx",
               "RelativeToolTip": "WebApplication1\\Home.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -287,11 +314,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Login.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Login.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Login.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Login.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Login.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Login.aspx",
               "RelativeToolTip": "WebApplication1\\Login.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -299,11 +326,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Profile.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Profile.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx",
               "RelativeToolTip": "WebApplication1\\Profile.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -311,11 +338,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Upload.aspx.cs",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Upload.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Upload.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Upload.aspx.cs",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Upload.aspx.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Upload.aspx.cs",
               "RelativeToolTip": "WebApplication1\\Upload.aspx.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -323,11 +350,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Melody.aspx.cs",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Melody.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Melody.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Melody.aspx.cs",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Melody.aspx.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Melody.aspx.cs",
               "RelativeToolTip": "WebApplication1\\Melody.aspx.cs",
               "ViewState": "AQIAAEIAAAAAAAAAAAAYwFEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -335,11 +362,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Upload.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Upload.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Upload.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Upload.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Upload.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Upload.aspx",
               "RelativeToolTip": "WebApplication1\\Upload.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -347,23 +374,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Adm_ReportManagement.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_ReportManagement.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\Adm_ReportManagement.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_ReportManagement.aspx",
-              "RelativeToolTip": "WebApplication1\\Adm_ReportManagement.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-04T05:16:20.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Photos.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Photos.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Photos.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Photos.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Photos.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Photos.aspx",
               "RelativeToolTip": "WebApplication1\\Photos.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -371,11 +386,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Adm_Home.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_Home.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_Home.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Adm_Home.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_Home.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_Home.aspx",
               "RelativeToolTip": "WebApplication1\\Adm_Home.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -383,11 +398,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MelodyDetails.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\MelodyDetails.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\MelodyDetails.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\MelodyDetails.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\MelodyDetails.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\MelodyDetails.aspx",
               "RelativeToolTip": "WebApplication1\\MelodyDetails.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -395,11 +410,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Menulogin.ascx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menulogin.ascx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menulogin.ascx",
               "RelativeDocumentMoniker": "WebApplication1\\Menulogin.ascx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menulogin.ascx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menulogin.ascx",
               "RelativeToolTip": "WebApplication1\\Menulogin.ascx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
@@ -407,11 +422,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "js_menuAdmin.js",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\js\\js_menuAdmin.js",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\js\\js_menuAdmin.js",
               "RelativeDocumentMoniker": "WebApplication1\\js\\js_menuAdmin.js",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\js\\js_menuAdmin.js",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\js\\js_menuAdmin.js",
               "RelativeToolTip": "WebApplication1\\js\\js_menuAdmin.js",
               "ViewState": "AQIAAAgAAAAAAAAAAAAmwB8AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -419,11 +434,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "adm_home.css",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\adm_home.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\adm_home.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\adm_home.css",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\adm_home.css",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\adm_home.css",
               "RelativeToolTip": "WebApplication1\\css\\adm_home.css",
               "ViewState": "AQIAANYAAAAAAAAAAAAYwPsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -431,11 +446,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Adm_Home.aspx.cs",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_Home.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_Home.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Adm_Home.aspx.cs",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_Home.aspx.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_Home.aspx.cs",
               "RelativeToolTip": "WebApplication1\\Adm_Home.aspx.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAmwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -443,57 +458,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "test1.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\test1.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\test1.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\test1.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\test1.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\test1.aspx",
               "RelativeToolTip": "WebApplication1\\test1.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-12-03T16:13:32.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ShoppingCart.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\ShoppingCart.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\ShoppingCart.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\ShoppingCart.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\ShoppingCart.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\ShoppingCart.aspx",
               "RelativeToolTip": "WebApplication1\\ShoppingCart.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-12-03T16:21:59.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "WebForm1.aspx",
               "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\WebForm1.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\WebForm1.aspx",
               "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\WebForm1.aspx",
-              "RelativeToolTip": "WebApplication1\\WebForm1.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-12-03T16:20:37.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Web.config",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Web.config",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Web.config",
               "RelativeDocumentMoniker": "WebApplication1\\Web.config",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Web.config",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Web.config",
               "RelativeToolTip": "WebApplication1\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAQAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-12-03T16:21:18.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "css_menu-Admin.css",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_menu-Admin.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_menu-Admin.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_menu-Admin.css",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_menu-Admin.css",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_menu-Admin.css",
               "RelativeToolTip": "WebApplication1\\css\\css_menu-Admin.css",
               "ViewState": "AQIAAFoBAAAAAAAAAAAYwHMBAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -501,23 +514,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "MenuAdmin.Master",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\MenuAdmin.Master",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\MenuAdmin.Master",
               "RelativeDocumentMoniker": "WebApplication1\\MenuAdmin.Master",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\MenuAdmin.Master",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\MenuAdmin.Master",
               "RelativeToolTip": "WebApplication1\\MenuAdmin.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-03T15:23:32.888Z"
+              "WhenOpened": "2024-12-03T15:23:32.888Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "css_photos.css",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_photos.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_photos.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_photos.css",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_photos.css",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_photos.css",
               "RelativeToolTip": "WebApplication1\\css\\css_photos.css",
               "ViewState": "AQIAAJkAAAAAAAAAAAAmwMIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -525,11 +538,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Collection.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Collection.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Collection.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Collection.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Collection.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Collection.aspx",
               "RelativeToolTip": "WebApplication1\\Collection.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -537,11 +550,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "css_exhibition1.css",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_exhibition1.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_exhibition1.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_exhibition1.css",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_exhibition1.css",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_exhibition1.css",
               "RelativeToolTip": "WebApplication1\\css\\css_exhibition1.css",
               "ViewState": "AQIAAKMAAAAAAAAAAAAAALgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -549,11 +562,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ExhibitionCorner.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\ExhibitionCorner.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\ExhibitionCorner.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\ExhibitionCorner.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\ExhibitionCorner.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\ExhibitionCorner.aspx",
               "RelativeToolTip": "WebApplication1\\ExhibitionCorner.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -561,11 +574,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "css_photo1.css",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_photo1.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_photo1.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_photo1.css",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_photo1.css",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_photo1.css",
               "RelativeToolTip": "WebApplication1\\css\\css_photo1.css",
               "ViewState": "AQIAAJoAAAAAAAAAAAAmwMMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -573,11 +586,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "css_exhibition.css",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_exhibition.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_exhibition.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_exhibition.css",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_exhibition.css",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_exhibition.css",
               "RelativeToolTip": "WebApplication1\\css\\css_exhibition.css",
               "ViewState": "AQIAAFoBAAAAAAAAAAAmwIMBAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -585,11 +598,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "css_melodyyy.css",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_melodyyy.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_melodyyy.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_melodyyy.css",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_melodyyy.css",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_melodyyy.css",
               "RelativeToolTip": "WebApplication1\\css\\css_melodyyy.css",
               "ViewState": "AQIAAAgBAAAAAAAAAAAAABUBAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -597,11 +610,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Help.aspx",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Help.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Help.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Help.aspx",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Help.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Help.aspx",
               "RelativeToolTip": "WebApplication1\\Help.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -609,11 +622,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "css_home1.css",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_home1.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_home1.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_home1.css",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_home1.css",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_home1.css",
               "RelativeToolTip": "WebApplication1\\css\\css_home1.css",
               "ViewState": "AQIAACoBAAAAAAAAAAAmwFMBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -621,11 +634,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "css_help.css",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_help.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_help.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_help.css",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_help.css",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_help.css",
               "RelativeToolTip": "WebApplication1\\css\\css_help.css",
               "ViewState": "AQIAAI0AAAAAAAAAAAAAAJAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -633,11 +646,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "css_menu.css",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_menu.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_menu.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_menu.css",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_menu.css",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_menu.css",
               "RelativeToolTip": "WebApplication1\\css\\css_menu.css",
               "ViewState": "AQIAALsAAAAAAAAAAAAAAMIAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -645,11 +658,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "css_collection.css",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_collection.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_collection.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_collection.css",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_collection.css",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_collection.css",
               "RelativeToolTip": "WebApplication1\\css\\css_collection.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -657,11 +670,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "css_home.css",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_home.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_home.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_home.css",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_home.css",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_home.css",
               "RelativeToolTip": "WebApplication1\\css\\css_home.css",
               "ViewState": "AQIAACsBAAAAAAAAAAAmwFQBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -669,20 +682,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "dbo.BAIDANGUP [Data]",
+              "DocumentIndex": 42,
+              "Title": "dbo.BAIDANGUP.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.BAIDANGUP.sql",
-              "ToolTip": "dbo.BAIDANGUP [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.BAIDANGUP.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-11-20T12:48:20.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Photos.aspx.cs",
-              "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Photos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Photos.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Photos.aspx.cs",
-              "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\Photos.aspx.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Photos.aspx.cs",
               "RelativeToolTip": "WebApplication1\\Photos.aspx.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -690,10 +703,10 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "dbo.newmusic [Data]",
+              "DocumentIndex": 41,
+              "Title": "dbo.newmusic.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.newmusic.sql",
-              "ToolTip": "dbo.newmusic [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.newmusic.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-11-20T12:59:21.246Z"
             }

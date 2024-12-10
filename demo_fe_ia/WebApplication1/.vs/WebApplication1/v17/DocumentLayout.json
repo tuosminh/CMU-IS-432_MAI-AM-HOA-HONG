@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\acer\\onedrive\\documents\\github\\cmu-is-432_mai-am-hoa-hong\\demo_fe_ia\\webapplication1\\webapplication1\\adm_reportmanagement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\adm_reportmanagement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\adm_reportmanagement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\adm_reportmanagement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\lopketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\lopketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\acer\\onedrive\\documents\\github\\cmu-is-432_mai-am-hoa-hong\\demo_fe_ia\\webapplication1\\webapplication1\\setting.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\setting.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\setting.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -52,10 +60,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\upload.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\upload.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\adm_reportmanagement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\adm_reportmanagement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\adm_home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -178,7 +182,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 145,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -191,28 +195,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Setting.aspx",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Setting.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\Setting.aspx",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Setting.aspx",
-              "RelativeToolTip": "WebApplication1\\Setting.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-04T14:40:13.894Z",
-              "EditorCaption": ""
+              "Title": "Adm_ReportManagement.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_ReportManagement.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Adm_ReportManagement.aspx.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_ReportManagement.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\Adm_ReportManagement.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA8wDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:54:27.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.KHACHHANG.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.KHACHHANG.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.KHACHHANG.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-04T14:17:42.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LopKetNoi.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\LopKetNoi.cs",
               "RelativeDocumentMoniker": "WebApplication1\\LopKetNoi.cs",
@@ -220,12 +214,11 @@
               "RelativeToolTip": "WebApplication1\\LopKetNoi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAGAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T14:14:25.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T14:14:25.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Profile.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx.designer.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Profile.aspx.designer.cs",
@@ -237,7 +230,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "Adm_ReportManagement.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_ReportManagement.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Adm_ReportManagement.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_ReportManagement.aspx",
+              "RelativeToolTip": "WebApplication1\\Adm_ReportManagement.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-04T05:16:20.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.KHACHHANG.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.KHACHHANG.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.KHACHHANG.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-04T14:17:42.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Setting.aspx",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Setting.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Setting.aspx",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Setting.aspx",
+              "RelativeToolTip": "WebApplication1\\Setting.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-04T14:40:13.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Profile.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Profile.aspx.cs",
@@ -249,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Menu.Master",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menu.Master",
               "RelativeDocumentMoniker": "WebApplication1\\Menu.Master",
@@ -257,12 +284,11 @@
               "RelativeToolTip": "WebApplication1\\Menu.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-27T09:53:12.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T09:53:12.547Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Melody.aspx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Melody.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Melody.aspx",
@@ -274,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Home.aspx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Home.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Home.aspx",
@@ -286,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Login.aspx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Login.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Login.aspx",
@@ -298,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Profile.aspx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Profile.aspx",
@@ -310,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Upload.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Upload.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Upload.aspx.cs",
@@ -322,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Melody.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Melody.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Melody.aspx.cs",
@@ -334,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Upload.aspx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Upload.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Upload.aspx",
@@ -346,19 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Adm_ReportManagement.aspx",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_ReportManagement.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\Adm_ReportManagement.aspx",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_ReportManagement.aspx",
-              "RelativeToolTip": "WebApplication1\\Adm_ReportManagement.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-04T05:16:20.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Photos.aspx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Photos.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Photos.aspx",
@@ -370,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Adm_Home.aspx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_Home.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Adm_Home.aspx",
@@ -382,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MelodyDetails.aspx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\MelodyDetails.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\MelodyDetails.aspx",
@@ -394,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Menulogin.ascx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Menulogin.ascx",
               "RelativeDocumentMoniker": "WebApplication1\\Menulogin.ascx",
@@ -406,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "js_menuAdmin.js",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\js\\js_menuAdmin.js",
               "RelativeDocumentMoniker": "WebApplication1\\js\\js_menuAdmin.js",
@@ -418,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "adm_home.css",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\adm_home.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\adm_home.css",
@@ -430,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Adm_Home.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Adm_Home.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Adm_Home.aspx.cs",
@@ -442,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "test1.aspx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\test1.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\test1.aspx",
@@ -453,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ShoppingCart.aspx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\ShoppingCart.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\ShoppingCart.aspx",
@@ -464,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "WebForm1.aspx",
               "DocumentMoniker": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\WebForm1.aspx",
               "ToolTip": "F:\\git_MainV02\\LY_NAM-SPM-\\demo_fe_ia\\WebApplication1\\WebApplication1\\WebForm1.aspx",
@@ -473,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Web.config",
               "RelativeDocumentMoniker": "WebApplication1\\Web.config",
@@ -486,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "css_menu-Admin.css",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_menu-Admin.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_menu-Admin.css",
@@ -498,19 +512,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "MenuAdmin.Master",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\MenuAdmin.Master",
               "RelativeDocumentMoniker": "WebApplication1\\MenuAdmin.Master",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\MenuAdmin.Master",
               "RelativeToolTip": "WebApplication1\\MenuAdmin.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-03T15:23:32.888Z"
+              "WhenOpened": "2024-12-03T15:23:32.888Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "css_photos.css",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_photos.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_photos.css",
@@ -522,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Collection.aspx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Collection.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Collection.aspx",
@@ -534,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "css_exhibition1.css",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_exhibition1.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_exhibition1.css",
@@ -546,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ExhibitionCorner.aspx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\ExhibitionCorner.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\ExhibitionCorner.aspx",
@@ -558,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "css_photo1.css",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_photo1.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_photo1.css",
@@ -570,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "css_exhibition.css",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_exhibition.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_exhibition.css",
@@ -582,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "css_melodyyy.css",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_melodyyy.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_melodyyy.css",
@@ -594,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Help.aspx",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Help.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Help.aspx",
@@ -606,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "css_home1.css",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_home1.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_home1.css",
@@ -618,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "css_help.css",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_help.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_help.css",
@@ -630,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "css_menu.css",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_menu.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_menu.css",
@@ -642,7 +656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "css_collection.css",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_collection.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_collection.css",
@@ -654,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "css_home.css",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_home.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_home.css",
@@ -666,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "dbo.BAIDANGUP.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.BAIDANGUP.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.BAIDANGUP.sql",
@@ -675,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Photos.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Photos.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Photos.aspx.cs",
@@ -687,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "dbo.newmusic.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.newmusic.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__GIT_MAINV02_LY_NAM_SPM__DEMO_FE_IA_WEBAPPLICATION1_WEBAPPLICATION1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.newmusic.sql",
