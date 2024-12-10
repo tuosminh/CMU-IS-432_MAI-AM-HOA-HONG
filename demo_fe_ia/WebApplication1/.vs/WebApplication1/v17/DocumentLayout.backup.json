@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\adm_reportmanagement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\acer\\onedrive\\documents\\github\\cmu-is-432_mai-am-hoa-hong\\demo_fe_ia\\webapplication1\\webapplication1\\adm_reportmanagement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\adm_reportmanagement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\acer\\onedrive\\documents\\github\\cmu-is-432_mai-am-hoa-hong\\demo_fe_ia\\webapplication1\\webapplication1\\adm_reportmanagement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\adm_reportmanagement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\adm_reportmanagement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\acer\\onedrive\\documents\\github\\cmu-is-432_mai-am-hoa-hong\\demo_fe_ia\\webapplication1\\webapplication1\\lopketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\webapplication1\\lopketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\lopketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -202,8 +202,7 @@
               "RelativeToolTip": "WebApplication1\\Adm_ReportManagement.aspx.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA8wDkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T11:54:27.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T11:54:27.093Z"
             },
             {
               "$type": "Document",
@@ -215,8 +214,7 @@
               "RelativeToolTip": "WebApplication1\\LopKetNoi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAGAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T14:14:25.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T14:14:25.368Z"
             },
             {
               "$type": "Document",

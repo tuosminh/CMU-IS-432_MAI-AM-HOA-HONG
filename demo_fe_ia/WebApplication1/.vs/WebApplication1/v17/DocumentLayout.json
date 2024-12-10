@@ -202,7 +202,8 @@
               "RelativeToolTip": "WebApplication1\\Adm_ReportManagement.aspx.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA8wDkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T11:54:27.093Z"
+              "WhenOpened": "2024-12-05T11:54:27.093Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -214,7 +215,8 @@
               "RelativeToolTip": "WebApplication1\\LopKetNoi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAGAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T14:14:25.368Z"
+              "WhenOpened": "2024-12-04T14:14:25.368Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -224,9 +226,10 @@
               "RelativeDocumentMoniker": "WebApplication1\\Profile.aspx.designer.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documents\\GitHub\\CMU-IS-432_MAI-AM-HOA-HONG\\demo_fe_ia\\WebApplication1\\WebApplication1\\Profile.aspx.designer.cs",
               "RelativeToolTip": "WebApplication1\\Profile.aspx.designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T14:47:28.614Z"
+              "WhenOpened": "2024-11-20T14:47:28.614Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
